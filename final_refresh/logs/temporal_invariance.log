@@ -1,0 +1,6 @@
+user: 18 features unchanged
+temporal: 44 features unchanged
+relational: 16 features unchanged
+repo_only: 6 features unchanged
+interaction: 14 features unchanged
+PASS: no feature changed after removing rows first visible at/after 2026-11-07 16:00:00 UTC

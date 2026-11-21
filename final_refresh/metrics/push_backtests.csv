@@ -1,0 +1,7 @@
+fold,arm,push_f1,truth_positives,predicted_positives
+push_sep19,B_user,0.7147917018046889,2422,3507
+push_sep19,C_user_temporal,0.7147187605254295,2422,3516
+push_sep19,F_repo_interactions,0.7149595687331537,2422,3514
+push_sep26,B_user,0.7392578125,2577,3567
+push_sep26,C_user_temporal,0.7248876909254268,2577,2988
+push_sep26,F_repo_interactions,0.7369644636333444,2577,3445

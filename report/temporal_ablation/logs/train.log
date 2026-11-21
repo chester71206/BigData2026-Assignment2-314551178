@@ -1,0 +1,281 @@
+2026-11-20 20:32:39,690 sep26/U_history/open_pr config=0 tune_logloss=0.202120 best_iteration=19
+2026-11-20 20:32:39,776 sep26/U_history/open_pr config=1 tune_logloss=0.201093 best_iteration=18
+2026-11-20 20:32:39,888 sep26/U_history/open_issue config=0 tune_logloss=0.102708 best_iteration=58
+2026-11-20 20:32:39,988 sep26/U_history/open_issue config=1 tune_logloss=0.102954 best_iteration=30
+2026-11-20 20:32:40,104 sep26/U_history/issue_comment config=0 tune_logloss=0.160220 best_iteration=17
+2026-11-20 20:32:40,207 sep26/U_history/issue_comment config=1 tune_logloss=0.159535 best_iteration=19
+2026-11-20 20:32:40,274 sep26/U_history/pr_review config=0 tune_logloss=0.134480 best_iteration=20
+2026-11-20 20:32:40,356 sep26/U_history/pr_review config=1 tune_logloss=0.134856 best_iteration=25
+2026-11-20 20:32:40,421 sep26/U_history/pr_review_comment config=0 tune_logloss=0.106899 best_iteration=17
+2026-11-20 20:32:40,500 sep26/U_history/pr_review_comment config=1 tune_logloss=0.106867 best_iteration=22
+2026-11-20 20:32:41,170 RESULT sep26 U_history Score=0.4524 elapsed=8.2s
+2026-11-20 20:32:41,293 sep26/U_plus_7d/open_pr config=0 tune_logloss=0.197053 best_iteration=23
+2026-11-20 20:32:41,382 sep26/U_plus_7d/open_pr config=1 tune_logloss=0.196520 best_iteration=21
+2026-11-20 20:32:41,504 sep26/U_plus_7d/open_issue config=0 tune_logloss=0.098022 best_iteration=48
+2026-11-20 20:32:41,791 sep26/U_plus_7d/open_issue config=1 tune_logloss=0.097760 best_iteration=103
+2026-11-20 20:32:41,889 sep26/U_plus_7d/issue_comment config=0 tune_logloss=0.158200 best_iteration=18
+2026-11-20 20:32:41,994 sep26/U_plus_7d/issue_comment config=1 tune_logloss=0.157385 best_iteration=21
+2026-11-20 20:32:42,131 sep26/U_plus_7d/pr_review config=0 tune_logloss=0.132208 best_iteration=25
+2026-11-20 20:32:42,254 sep26/U_plus_7d/pr_review config=1 tune_logloss=0.133358 best_iteration=28
+2026-11-20 20:32:42,338 sep26/U_plus_7d/pr_review_comment config=0 tune_logloss=0.104084 best_iteration=24
+2026-11-20 20:32:42,439 sep26/U_plus_7d/pr_review_comment config=1 tune_logloss=0.104573 best_iteration=28
+2026-11-20 20:32:43,166 RESULT sep26 U_plus_7d Score=0.3738 elapsed=10.2s
+2026-11-20 20:32:43,321 sep26/U_plus_7_14_30d/open_pr config=0 tune_logloss=0.197259 best_iteration=21
+2026-11-20 20:32:43,451 sep26/U_plus_7_14_30d/open_pr config=1 tune_logloss=0.195421 best_iteration=26
+2026-11-20 20:32:43,633 sep26/U_plus_7_14_30d/open_issue config=0 tune_logloss=0.097420 best_iteration=61
+2026-11-20 20:32:43,805 sep26/U_plus_7_14_30d/open_issue config=1 tune_logloss=0.099126 best_iteration=37
+2026-11-20 20:32:43,920 sep26/U_plus_7_14_30d/issue_comment config=0 tune_logloss=0.157665 best_iteration=19
+2026-11-20 20:32:44,047 sep26/U_plus_7_14_30d/issue_comment config=1 tune_logloss=0.157103 best_iteration=25
+2026-11-20 20:32:44,199 sep26/U_plus_7_14_30d/pr_review config=0 tune_logloss=0.132786 best_iteration=24
+2026-11-20 20:32:44,350 sep26/U_plus_7_14_30d/pr_review config=1 tune_logloss=0.132781 best_iteration=28
+2026-11-20 20:32:44,443 sep26/U_plus_7_14_30d/pr_review_comment config=0 tune_logloss=0.104573 best_iteration=18
+2026-11-20 20:32:44,574 sep26/U_plus_7_14_30d/pr_review_comment config=1 tune_logloss=0.104124 best_iteration=29
+2026-11-20 20:32:45,208 RESULT sep26 U_plus_7_14_30d Score=0.3608 elapsed=12.2s
+2026-11-20 20:32:45,382 sep26/U_plus_windows_recency/open_pr config=0 tune_logloss=0.190523 best_iteration=27
+2026-11-20 20:32:45,539 sep26/U_plus_windows_recency/open_pr config=1 tune_logloss=0.190012 best_iteration=32
+2026-11-20 20:32:45,717 sep26/U_plus_windows_recency/open_issue config=0 tune_logloss=0.097068 best_iteration=58
+2026-11-20 20:32:46,094 sep26/U_plus_windows_recency/open_issue config=1 tune_logloss=0.095861 best_iteration=104
+2026-11-20 20:32:46,275 sep26/U_plus_windows_recency/issue_comment config=0 tune_logloss=0.154958 best_iteration=19
+2026-11-20 20:32:46,423 sep26/U_plus_windows_recency/issue_comment config=1 tune_logloss=0.153655 best_iteration=26
+2026-11-20 20:32:46,561 sep26/U_plus_windows_recency/pr_review config=0 tune_logloss=0.130299 best_iteration=30
+2026-11-20 20:32:46,725 sep26/U_plus_windows_recency/pr_review config=1 tune_logloss=0.129372 best_iteration=33
+2026-11-20 20:32:46,871 sep26/U_plus_windows_recency/pr_review_comment config=0 tune_logloss=0.100948 best_iteration=36
+2026-11-20 20:32:47,036 sep26/U_plus_windows_recency/pr_review_comment config=1 tune_logloss=0.101689 best_iteration=34
+2026-11-20 20:32:47,646 RESULT sep26 U_plus_windows_recency Score=0.3724 elapsed=14.6s
+2026-11-20 20:32:47,835 sep26/U_plus_windows_recency_trend/open_pr config=0 tune_logloss=0.192287 best_iteration=28
+2026-11-20 20:32:48,003 sep26/U_plus_windows_recency_trend/open_pr config=1 tune_logloss=0.190427 best_iteration=29
+2026-11-20 20:32:48,193 sep26/U_plus_windows_recency_trend/open_issue config=0 tune_logloss=0.096979 best_iteration=50
+2026-11-20 20:32:48,463 sep26/U_plus_windows_recency_trend/open_issue config=1 tune_logloss=0.097048 best_iteration=46
+2026-11-20 20:32:48,598 sep26/U_plus_windows_recency_trend/issue_comment config=0 tune_logloss=0.153971 best_iteration=23
+2026-11-20 20:32:48,757 sep26/U_plus_windows_recency_trend/issue_comment config=1 tune_logloss=0.152988 best_iteration=26
+2026-11-20 20:32:48,898 sep26/U_plus_windows_recency_trend/pr_review config=0 tune_logloss=0.130478 best_iteration=29
+2026-11-20 20:32:49,058 sep26/U_plus_windows_recency_trend/pr_review config=1 tune_logloss=0.129618 best_iteration=31
+2026-11-20 20:32:49,195 sep26/U_plus_windows_recency_trend/pr_review_comment config=0 tune_logloss=0.101523 best_iteration=28
+2026-11-20 20:32:49,353 sep26/U_plus_windows_recency_trend/pr_review_comment config=1 tune_logloss=0.101151 best_iteration=29
+2026-11-20 20:32:49,986 RESULT sep26 U_plus_windows_recency_trend Score=0.3736 elapsed=17.0s
+2026-11-20 20:32:50,432 oct10/U_history/open_pr config=0 tune_logloss=0.152155 best_iteration=167
+2026-11-20 20:32:50,724 oct10/U_history/open_pr config=1 tune_logloss=0.155094 best_iteration=86
+2026-11-20 20:32:51,200 oct10/U_history/open_issue config=0 tune_logloss=0.081169 best_iteration=239
+2026-11-20 20:32:51,614 oct10/U_history/open_issue config=1 tune_logloss=0.082335 best_iteration=137
+2026-11-20 20:32:52,053 oct10/U_history/issue_comment config=0 tune_logloss=0.105601 best_iteration=240
+2026-11-20 20:32:52,551 oct10/U_history/issue_comment config=1 tune_logloss=0.106329 best_iteration=151
+2026-11-20 20:32:52,801 oct10/U_history/pr_review config=0 tune_logloss=0.105555 best_iteration=63
+2026-11-20 20:32:53,014 oct10/U_history/pr_review config=1 tune_logloss=0.106510 best_iteration=60
+2026-11-20 20:32:53,185 oct10/U_history/pr_review_comment config=0 tune_logloss=0.067480 best_iteration=63
+2026-11-20 20:32:53,347 oct10/U_history/pr_review_comment config=1 tune_logloss=0.066798 best_iteration=39
+2026-11-20 20:32:53,955 RESULT oct10 U_history Score=0.3941 elapsed=20.9s
+2026-11-20 20:32:54,227 oct10/U_plus_7d/open_pr config=0 tune_logloss=0.152682 best_iteration=85
+2026-11-20 20:32:54,571 oct10/U_plus_7d/open_pr config=1 tune_logloss=0.153018 best_iteration=90
+2026-11-20 20:32:54,854 oct10/U_plus_7d/open_issue config=0 tune_logloss=0.082385 best_iteration=69
+2026-11-20 20:32:55,235 oct10/U_plus_7d/open_issue config=1 tune_logloss=0.081978 best_iteration=105
+2026-11-20 20:32:55,683 oct10/U_plus_7d/issue_comment config=0 tune_logloss=0.105037 best_iteration=208
+2026-11-20 20:32:56,264 oct10/U_plus_7d/issue_comment config=1 tune_logloss=0.105867 best_iteration=170
+2026-11-20 20:32:56,474 oct10/U_plus_7d/pr_review config=0 tune_logloss=0.104681 best_iteration=68
+2026-11-20 20:32:56,708 oct10/U_plus_7d/pr_review config=1 tune_logloss=0.105319 best_iteration=56
+2026-11-20 20:32:56,897 oct10/U_plus_7d/pr_review_comment config=0 tune_logloss=0.066828 best_iteration=39
+2026-11-20 20:32:57,122 oct10/U_plus_7d/pr_review_comment config=1 tune_logloss=0.065913 best_iteration=42
+2026-11-20 20:32:57,787 RESULT oct10 U_plus_7d Score=0.4121 elapsed=24.8s
+2026-11-20 20:32:58,147 oct10/U_plus_7_14_30d/open_pr config=0 tune_logloss=0.151751 best_iteration=66
+2026-11-20 20:32:58,546 oct10/U_plus_7_14_30d/open_pr config=1 tune_logloss=0.152043 best_iteration=89
+2026-11-20 20:32:58,825 oct10/U_plus_7_14_30d/open_issue config=0 tune_logloss=0.082599 best_iteration=81
+2026-11-20 20:32:59,272 oct10/U_plus_7_14_30d/open_issue config=1 tune_logloss=0.081992 best_iteration=84
+2026-11-20 20:32:59,696 oct10/U_plus_7_14_30d/issue_comment config=0 tune_logloss=0.105463 best_iteration=153
+2026-11-20 20:33:00,230 oct10/U_plus_7_14_30d/issue_comment config=1 tune_logloss=0.105780 best_iteration=127
+2026-11-20 20:33:00,511 oct10/U_plus_7_14_30d/pr_review config=0 tune_logloss=0.103179 best_iteration=81
+2026-11-20 20:33:00,856 oct10/U_plus_7_14_30d/pr_review config=1 tune_logloss=0.102893 best_iteration=72
+2026-11-20 20:33:01,170 oct10/U_plus_7_14_30d/pr_review_comment config=0 tune_logloss=0.065184 best_iteration=63
+2026-11-20 20:33:01,413 oct10/U_plus_7_14_30d/pr_review_comment config=1 tune_logloss=0.064309 best_iteration=46
+2026-11-20 20:33:02,117 RESULT oct10 U_plus_7_14_30d Score=0.3986 elapsed=29.1s
+2026-11-20 20:33:02,477 oct10/U_plus_windows_recency/open_pr config=0 tune_logloss=0.152116 best_iteration=64
+2026-11-20 20:33:02,831 oct10/U_plus_windows_recency/open_pr config=1 tune_logloss=0.153244 best_iteration=58
+2026-11-20 20:33:03,213 oct10/U_plus_windows_recency/open_issue config=0 tune_logloss=0.081878 best_iteration=76
+2026-11-20 20:33:03,539 oct10/U_plus_windows_recency/open_issue config=1 tune_logloss=0.082087 best_iteration=54
+2026-11-20 20:33:04,196 oct10/U_plus_windows_recency/issue_comment config=0 tune_logloss=0.106303 best_iteration=231
+2026-11-20 20:33:04,997 oct10/U_plus_windows_recency/issue_comment config=1 tune_logloss=0.106105 best_iteration=172
+2026-11-20 20:33:05,381 oct10/U_plus_windows_recency/pr_review config=0 tune_logloss=0.101185 best_iteration=73
+2026-11-20 20:33:05,796 oct10/U_plus_windows_recency/pr_review config=1 tune_logloss=0.102458 best_iteration=68
+2026-11-20 20:33:06,177 oct10/U_plus_windows_recency/pr_review_comment config=0 tune_logloss=0.062776 best_iteration=86
+2026-11-20 20:33:06,741 oct10/U_plus_windows_recency/pr_review_comment config=1 tune_logloss=0.062843 best_iteration=69
+2026-11-20 20:33:07,454 RESULT oct10 U_plus_windows_recency Score=0.4037 elapsed=34.4s
+2026-11-20 20:33:07,880 oct10/U_plus_windows_recency_trend/open_pr config=0 tune_logloss=0.151828 best_iteration=86
+2026-11-20 20:33:08,249 oct10/U_plus_windows_recency_trend/open_pr config=1 tune_logloss=0.153891 best_iteration=57
+2026-11-20 20:33:08,574 oct10/U_plus_windows_recency_trend/open_issue config=0 tune_logloss=0.081618 best_iteration=74
+2026-11-20 20:33:08,970 oct10/U_plus_windows_recency_trend/open_issue config=1 tune_logloss=0.082211 best_iteration=67
+2026-11-20 20:33:09,395 oct10/U_plus_windows_recency_trend/issue_comment config=0 tune_logloss=0.107968 best_iteration=84
+2026-11-20 20:33:09,864 oct10/U_plus_windows_recency_trend/issue_comment config=1 tune_logloss=0.107586 best_iteration=81
+2026-11-20 20:33:10,176 oct10/U_plus_windows_recency_trend/pr_review config=0 tune_logloss=0.102076 best_iteration=66
+2026-11-20 20:33:10,574 oct10/U_plus_windows_recency_trend/pr_review config=1 tune_logloss=0.101594 best_iteration=66
+2026-11-20 20:33:11,000 oct10/U_plus_windows_recency_trend/pr_review_comment config=0 tune_logloss=0.063535 best_iteration=114
+2026-11-20 20:33:11,514 oct10/U_plus_windows_recency_trend/pr_review_comment config=1 tune_logloss=0.063003 best_iteration=80
+2026-11-20 20:33:12,188 RESULT oct10 U_plus_windows_recency_trend Score=0.4083 elapsed=39.2s
+2026-11-20 20:33:12,628 oct17/U_history/open_pr config=0 tune_logloss=0.133873 best_iteration=176
+2026-11-20 20:33:13,127 oct17/U_history/open_pr config=1 tune_logloss=0.133948 best_iteration=142
+2026-11-20 20:33:13,384 oct17/U_history/open_issue config=0 tune_logloss=0.086516 best_iteration=71
+2026-11-20 20:33:13,675 oct17/U_history/open_issue config=1 tune_logloss=0.086715 best_iteration=62
+2026-11-20 20:33:14,020 oct17/U_history/issue_comment config=0 tune_logloss=0.087846 best_iteration=145
+2026-11-20 20:33:14,481 oct17/U_history/issue_comment config=1 tune_logloss=0.087997 best_iteration=129
+2026-11-20 20:33:14,730 oct17/U_history/pr_review config=0 tune_logloss=0.094427 best_iteration=80
+2026-11-20 20:33:15,077 oct17/U_history/pr_review config=1 tune_logloss=0.094143 best_iteration=95
+2026-11-20 20:33:15,354 oct17/U_history/pr_review_comment config=0 tune_logloss=0.065892 best_iteration=104
+2026-11-20 20:33:15,753 oct17/U_history/pr_review_comment config=1 tune_logloss=0.066325 best_iteration=88
+2026-11-20 20:33:16,444 RESULT oct17 U_history Score=0.3859 elapsed=43.4s
+2026-11-20 20:33:16,748 oct17/U_plus_7d/open_pr config=0 tune_logloss=0.132690 best_iteration=83
+2026-11-20 20:33:17,144 oct17/U_plus_7d/open_pr config=1 tune_logloss=0.132755 best_iteration=94
+2026-11-20 20:33:17,408 oct17/U_plus_7d/open_issue config=0 tune_logloss=0.084494 best_iteration=76
+2026-11-20 20:33:17,762 oct17/U_plus_7d/open_issue config=1 tune_logloss=0.085222 best_iteration=60
+2026-11-20 20:33:18,100 oct17/U_plus_7d/issue_comment config=0 tune_logloss=0.086447 best_iteration=118
+2026-11-20 20:33:18,585 oct17/U_plus_7d/issue_comment config=1 tune_logloss=0.086069 best_iteration=118
+2026-11-20 20:33:18,844 oct17/U_plus_7d/pr_review config=0 tune_logloss=0.093076 best_iteration=77
+2026-11-20 20:33:19,224 oct17/U_plus_7d/pr_review config=1 tune_logloss=0.092991 best_iteration=93
+2026-11-20 20:33:19,547 oct17/U_plus_7d/pr_review_comment config=0 tune_logloss=0.065469 best_iteration=109
+2026-11-20 20:33:19,986 oct17/U_plus_7d/pr_review_comment config=1 tune_logloss=0.066208 best_iteration=92
+2026-11-20 20:33:20,635 RESULT oct17 U_plus_7d Score=0.4012 elapsed=47.6s
+2026-11-20 20:33:21,011 oct17/U_plus_7_14_30d/open_pr config=0 tune_logloss=0.132887 best_iteration=87
+2026-11-20 20:33:21,464 oct17/U_plus_7_14_30d/open_pr config=1 tune_logloss=0.132647 best_iteration=88
+2026-11-20 20:33:21,897 oct17/U_plus_7_14_30d/open_issue config=0 tune_logloss=0.084050 best_iteration=82
+2026-11-20 20:33:22,267 oct17/U_plus_7_14_30d/open_issue config=1 tune_logloss=0.084694 best_iteration=59
+2026-11-20 20:33:22,729 oct17/U_plus_7_14_30d/issue_comment config=0 tune_logloss=0.086167 best_iteration=135
+2026-11-20 20:33:23,294 oct17/U_plus_7_14_30d/issue_comment config=1 tune_logloss=0.085560 best_iteration=107
+2026-11-20 20:33:23,635 oct17/U_plus_7_14_30d/pr_review config=0 tune_logloss=0.093934 best_iteration=80
+2026-11-20 20:33:24,132 oct17/U_plus_7_14_30d/pr_review config=1 tune_logloss=0.093743 best_iteration=85
+2026-11-20 20:33:24,564 oct17/U_plus_7_14_30d/pr_review_comment config=0 tune_logloss=0.065495 best_iteration=104
+2026-11-20 20:33:25,036 oct17/U_plus_7_14_30d/pr_review_comment config=1 tune_logloss=0.066664 best_iteration=84
+2026-11-20 20:33:25,663 RESULT oct17 U_plus_7_14_30d Score=0.3906 elapsed=52.7s
+2026-11-20 20:33:26,170 oct17/U_plus_windows_recency/open_pr config=0 tune_logloss=0.131439 best_iteration=85
+2026-11-20 20:33:26,711 oct17/U_plus_windows_recency/open_pr config=1 tune_logloss=0.131589 best_iteration=81
+2026-11-20 20:33:27,087 oct17/U_plus_windows_recency/open_issue config=0 tune_logloss=0.082907 best_iteration=70
+2026-11-20 20:33:27,591 oct17/U_plus_windows_recency/open_issue config=1 tune_logloss=0.082895 best_iteration=67
+2026-11-20 20:33:28,210 oct17/U_plus_windows_recency/issue_comment config=0 tune_logloss=0.084876 best_iteration=133
+2026-11-20 20:33:28,892 oct17/U_plus_windows_recency/issue_comment config=1 tune_logloss=0.085067 best_iteration=115
+2026-11-20 20:33:29,264 oct17/U_plus_windows_recency/pr_review config=0 tune_logloss=0.095140 best_iteration=76
+2026-11-20 20:33:29,775 oct17/U_plus_windows_recency/pr_review config=1 tune_logloss=0.094869 best_iteration=83
+2026-11-20 20:33:30,320 oct17/U_plus_windows_recency/pr_review_comment config=0 tune_logloss=0.065835 best_iteration=101
+2026-11-20 20:33:30,894 oct17/U_plus_windows_recency/pr_review_comment config=1 tune_logloss=0.066421 best_iteration=85
+2026-11-20 20:33:31,735 RESULT oct17 U_plus_windows_recency Score=0.3989 elapsed=58.7s
+2026-11-20 20:33:32,288 oct17/U_plus_windows_recency_trend/open_pr config=0 tune_logloss=0.131910 best_iteration=104
+2026-11-20 20:33:32,903 oct17/U_plus_windows_recency_trend/open_pr config=1 tune_logloss=0.132277 best_iteration=82
+2026-11-20 20:33:33,268 oct17/U_plus_windows_recency_trend/open_issue config=0 tune_logloss=0.083253 best_iteration=70
+2026-11-20 20:33:33,724 oct17/U_plus_windows_recency_trend/open_issue config=1 tune_logloss=0.083177 best_iteration=67
+2026-11-20 20:33:34,292 oct17/U_plus_windows_recency_trend/issue_comment config=0 tune_logloss=0.085137 best_iteration=141
+2026-11-20 20:33:34,967 oct17/U_plus_windows_recency_trend/issue_comment config=1 tune_logloss=0.085249 best_iteration=101
+2026-11-20 20:33:35,386 oct17/U_plus_windows_recency_trend/pr_review config=0 tune_logloss=0.095113 best_iteration=78
+2026-11-20 20:33:35,909 oct17/U_plus_windows_recency_trend/pr_review config=1 tune_logloss=0.095063 best_iteration=82
+2026-11-20 20:33:36,330 oct17/U_plus_windows_recency_trend/pr_review_comment config=0 tune_logloss=0.065943 best_iteration=84
+2026-11-20 20:33:36,924 oct17/U_plus_windows_recency_trend/pr_review_comment config=1 tune_logloss=0.066344 best_iteration=82
+2026-11-20 20:33:37,600 RESULT oct17 U_plus_windows_recency_trend Score=0.4051 elapsed=64.6s
+2026-11-20 20:33:38,141 oct31/U_history/open_pr config=0 tune_logloss=0.118671 best_iteration=133
+2026-11-20 20:33:38,874 oct31/U_history/open_pr config=1 tune_logloss=0.119172 best_iteration=123
+2026-11-20 20:33:39,572 oct31/U_history/open_issue config=0 tune_logloss=0.064396 best_iteration=221
+2026-11-20 20:33:40,434 oct31/U_history/open_issue config=1 tune_logloss=0.064821 best_iteration=186
+2026-11-20 20:33:40,890 oct31/U_history/issue_comment config=0 tune_logloss=0.080499 best_iteration=88
+2026-11-20 20:33:41,442 oct31/U_history/issue_comment config=1 tune_logloss=0.080694 best_iteration=95
+2026-11-20 20:33:41,857 oct31/U_history/pr_review config=0 tune_logloss=0.081240 best_iteration=108
+2026-11-20 20:33:42,316 oct31/U_history/pr_review config=1 tune_logloss=0.081336 best_iteration=96
+2026-11-20 20:33:42,888 oct31/U_history/pr_review_comment config=0 tune_logloss=0.039698 best_iteration=138
+2026-11-20 20:33:43,316 oct31/U_history/pr_review_comment config=1 tune_logloss=0.039741 best_iteration=85
+2026-11-20 20:33:43,993 RESULT oct31 U_history Score=0.4057 elapsed=71.0s
+2026-11-20 20:33:44,593 oct31/U_plus_7d/open_pr config=0 tune_logloss=0.116626 best_iteration=157
+2026-11-20 20:33:45,199 oct31/U_plus_7d/open_pr config=1 tune_logloss=0.117109 best_iteration=99
+2026-11-20 20:33:45,846 oct31/U_plus_7d/open_issue config=0 tune_logloss=0.063426 best_iteration=175
+2026-11-20 20:33:46,349 oct31/U_plus_7d/open_issue config=1 tune_logloss=0.063514 best_iteration=93
+2026-11-20 20:33:46,812 oct31/U_plus_7d/issue_comment config=0 tune_logloss=0.079803 best_iteration=102
+2026-11-20 20:33:47,341 oct31/U_plus_7d/issue_comment config=1 tune_logloss=0.080209 best_iteration=84
+2026-11-20 20:33:47,749 oct31/U_plus_7d/pr_review config=0 tune_logloss=0.080761 best_iteration=96
+2026-11-20 20:33:48,230 oct31/U_plus_7d/pr_review config=1 tune_logloss=0.081026 best_iteration=87
+2026-11-20 20:33:48,611 oct31/U_plus_7d/pr_review_comment config=0 tune_logloss=0.038464 best_iteration=87
+2026-11-20 20:33:49,202 oct31/U_plus_7d/pr_review_comment config=1 tune_logloss=0.038818 best_iteration=97
+2026-11-20 20:33:49,931 RESULT oct31 U_plus_7d Score=0.4099 elapsed=76.9s
+2026-11-20 20:33:50,479 oct31/U_plus_7_14_30d/open_pr config=0 tune_logloss=0.116075 best_iteration=90
+2026-11-20 20:33:51,244 oct31/U_plus_7_14_30d/open_pr config=1 tune_logloss=0.116876 best_iteration=110
+2026-11-20 20:33:51,843 oct31/U_plus_7_14_30d/open_issue config=0 tune_logloss=0.062712 best_iteration=137
+2026-11-20 20:33:52,490 oct31/U_plus_7_14_30d/open_issue config=1 tune_logloss=0.062953 best_iteration=105
+2026-11-20 20:33:52,970 oct31/U_plus_7_14_30d/issue_comment config=0 tune_logloss=0.079685 best_iteration=94
+2026-11-20 20:33:53,603 oct31/U_plus_7_14_30d/issue_comment config=1 tune_logloss=0.079905 best_iteration=88
+2026-11-20 20:33:54,042 oct31/U_plus_7_14_30d/pr_review config=0 tune_logloss=0.081624 best_iteration=86
+2026-11-20 20:33:54,581 oct31/U_plus_7_14_30d/pr_review config=1 tune_logloss=0.081628 best_iteration=81
+2026-11-20 20:33:55,035 oct31/U_plus_7_14_30d/pr_review_comment config=0 tune_logloss=0.038005 best_iteration=91
+2026-11-20 20:33:55,675 oct31/U_plus_7_14_30d/pr_review_comment config=1 tune_logloss=0.038673 best_iteration=84
+2026-11-20 20:33:56,341 RESULT oct31 U_plus_7_14_30d Score=0.4047 elapsed=83.3s
+2026-11-20 20:33:57,148 oct31/U_plus_windows_recency/open_pr config=0 tune_logloss=0.115396 best_iteration=148
+2026-11-20 20:33:57,893 oct31/U_plus_windows_recency/open_pr config=1 tune_logloss=0.115947 best_iteration=92
+2026-11-20 20:33:58,551 oct31/U_plus_windows_recency/open_issue config=0 tune_logloss=0.061753 best_iteration=124
+2026-11-20 20:33:59,475 oct31/U_plus_windows_recency/open_issue config=1 tune_logloss=0.062184 best_iteration=124
+2026-11-20 20:34:00,105 oct31/U_plus_windows_recency/issue_comment config=0 tune_logloss=0.079427 best_iteration=105
+2026-11-20 20:34:00,757 oct31/U_plus_windows_recency/issue_comment config=1 tune_logloss=0.080191 best_iteration=81
+2026-11-20 20:34:01,493 oct31/U_plus_windows_recency/pr_review config=0 tune_logloss=0.081900 best_iteration=129
+2026-11-20 20:34:02,176 oct31/U_plus_windows_recency/pr_review config=1 tune_logloss=0.081733 best_iteration=83
+2026-11-20 20:34:02,715 oct31/U_plus_windows_recency/pr_review_comment config=0 tune_logloss=0.037642 best_iteration=86
+2026-11-20 20:34:03,421 oct31/U_plus_windows_recency/pr_review_comment config=1 tune_logloss=0.038490 best_iteration=91
+2026-11-20 20:34:04,173 RESULT oct31 U_plus_windows_recency Score=0.4119 elapsed=91.2s
+2026-11-20 20:34:05,062 oct31/U_plus_windows_recency_trend/open_pr config=0 tune_logloss=0.115434 best_iteration=153
+2026-11-20 20:34:06,071 oct31/U_plus_windows_recency_trend/open_pr config=1 tune_logloss=0.116292 best_iteration=127
+2026-11-20 20:34:06,715 oct31/U_plus_windows_recency_trend/open_issue config=0 tune_logloss=0.062029 best_iteration=111
+2026-11-20 20:34:07,557 oct31/U_plus_windows_recency_trend/open_issue config=1 tune_logloss=0.062262 best_iteration=103
+2026-11-20 20:34:08,215 oct31/U_plus_windows_recency_trend/issue_comment config=0 tune_logloss=0.078982 best_iteration=103
+2026-11-20 20:34:08,892 oct31/U_plus_windows_recency_trend/issue_comment config=1 tune_logloss=0.079779 best_iteration=81
+2026-11-20 20:34:09,468 oct31/U_plus_windows_recency_trend/pr_review config=0 tune_logloss=0.082155 best_iteration=93
+2026-11-20 20:34:10,213 oct31/U_plus_windows_recency_trend/pr_review config=1 tune_logloss=0.081726 best_iteration=83
+2026-11-20 20:34:10,757 oct31/U_plus_windows_recency_trend/pr_review_comment config=0 tune_logloss=0.037647 best_iteration=82
+2026-11-20 20:34:11,393 oct31/U_plus_windows_recency_trend/pr_review_comment config=1 tune_logloss=0.038685 best_iteration=76
+2026-11-20 20:34:12,058 RESULT oct31 U_plus_windows_recency_trend Score=0.4007 elapsed=99.0s
+2026-11-20 20:34:12,062 DONE elapsed=99.1s
+                                  mean       std       min       max
+arm                                                                 
+U_history                     0.409528  0.029716  0.385908  0.452415
+U_plus_7d                     0.399219  0.017601  0.373781  0.412083
+U_plus_7_14_30d               0.388671  0.019453  0.360810  0.404699
+U_plus_windows_recency        0.396731  0.017087  0.372400  0.411906
+U_plus_windows_recency_trend  0.396947  0.015869  0.373606  0.408328
+2026-11-20 20:34:37,844 sep26/U_plus_7_14d/open_pr config=0 tune_logloss=0.196121 best_iteration=22
+2026-11-20 20:34:37,949 sep26/U_plus_7_14d/open_pr config=1 tune_logloss=0.194975 best_iteration=24
+2026-11-20 20:34:38,087 sep26/U_plus_7_14d/open_issue config=0 tune_logloss=0.098607 best_iteration=60
+2026-11-20 20:34:38,220 sep26/U_plus_7_14d/open_issue config=1 tune_logloss=0.099054 best_iteration=40
+2026-11-20 20:34:38,306 sep26/U_plus_7_14d/issue_comment config=0 tune_logloss=0.158023 best_iteration=17
+2026-11-20 20:34:38,401 sep26/U_plus_7_14d/issue_comment config=1 tune_logloss=0.157445 best_iteration=20
+2026-11-20 20:34:38,490 sep26/U_plus_7_14d/pr_review config=0 tune_logloss=0.132749 best_iteration=24
+2026-11-20 20:34:38,597 sep26/U_plus_7_14d/pr_review config=1 tune_logloss=0.133100 best_iteration=27
+2026-11-20 20:34:38,687 sep26/U_plus_7_14d/pr_review_comment config=0 tune_logloss=0.104558 best_iteration=22
+2026-11-20 20:34:38,799 sep26/U_plus_7_14d/pr_review_comment config=1 tune_logloss=0.103983 best_iteration=27
+2026-11-20 20:34:39,581 RESULT sep26 U_plus_7_14d Score=0.3647 elapsed=7.6s
+2026-11-20 20:34:39,868 oct10/U_plus_7_14d/open_pr config=0 tune_logloss=0.151826 best_iteration=75
+2026-11-20 20:34:40,149 oct10/U_plus_7_14d/open_pr config=1 tune_logloss=0.152816 best_iteration=68
+2026-11-20 20:34:40,381 oct10/U_plus_7_14d/open_issue config=0 tune_logloss=0.081844 best_iteration=77
+2026-11-20 20:34:40,713 oct10/U_plus_7_14d/open_issue config=1 tune_logloss=0.081830 best_iteration=84
+2026-11-20 20:34:41,118 oct10/U_plus_7_14d/issue_comment config=0 tune_logloss=0.105499 best_iteration=156
+2026-11-20 20:34:41,868 oct10/U_plus_7_14d/issue_comment config=1 tune_logloss=0.106056 best_iteration=185
+2026-11-20 20:34:42,109 oct10/U_plus_7_14d/pr_review config=0 tune_logloss=0.102948 best_iteration=62
+2026-11-20 20:34:42,420 oct10/U_plus_7_14d/pr_review config=1 tune_logloss=0.102615 best_iteration=61
+2026-11-20 20:34:42,653 oct10/U_plus_7_14d/pr_review_comment config=0 tune_logloss=0.065386 best_iteration=58
+2026-11-20 20:34:42,946 oct10/U_plus_7_14d/pr_review_comment config=1 tune_logloss=0.064433 best_iteration=48
+2026-11-20 20:34:43,698 RESULT oct10 U_plus_7_14d Score=0.4030 elapsed=11.8s
+2026-11-20 20:34:44,092 oct17/U_plus_7_14d/open_pr config=0 tune_logloss=0.132692 best_iteration=90
+2026-11-20 20:34:44,569 oct17/U_plus_7_14d/open_pr config=1 tune_logloss=0.133232 best_iteration=89
+2026-11-20 20:34:44,899 oct17/U_plus_7_14d/open_issue config=0 tune_logloss=0.084075 best_iteration=78
+2026-11-20 20:34:45,247 oct17/U_plus_7_14d/open_issue config=1 tune_logloss=0.084874 best_iteration=64
+2026-11-20 20:34:45,745 oct17/U_plus_7_14d/issue_comment config=0 tune_logloss=0.086086 best_iteration=165
+2026-11-20 20:34:46,193 oct17/U_plus_7_14d/issue_comment config=1 tune_logloss=0.085795 best_iteration=101
+2026-11-20 20:34:46,469 oct17/U_plus_7_14d/pr_review config=0 tune_logloss=0.094001 best_iteration=78
+2026-11-20 20:34:46,941 oct17/U_plus_7_14d/pr_review config=1 tune_logloss=0.093843 best_iteration=93
+2026-11-20 20:34:47,313 oct17/U_plus_7_14d/pr_review_comment config=0 tune_logloss=0.065048 best_iteration=105
+2026-11-20 20:34:47,757 oct17/U_plus_7_14d/pr_review_comment config=1 tune_logloss=0.065849 best_iteration=85
+2026-11-20 20:34:48,376 RESULT oct17 U_plus_7_14d Score=0.3968 elapsed=16.4s
+2026-11-20 20:34:49,034 oct31/U_plus_7_14d/open_pr config=0 tune_logloss=0.116304 best_iteration=115
+2026-11-20 20:34:49,771 oct31/U_plus_7_14d/open_pr config=1 tune_logloss=0.116654 best_iteration=109
+2026-11-20 20:34:50,315 oct31/U_plus_7_14d/open_issue config=0 tune_logloss=0.063014 best_iteration=112
+2026-11-20 20:34:51,003 oct31/U_plus_7_14d/open_issue config=1 tune_logloss=0.063036 best_iteration=108
+2026-11-20 20:34:51,647 oct31/U_plus_7_14d/issue_comment config=0 tune_logloss=0.079458 best_iteration=139
+2026-11-20 20:34:52,269 oct31/U_plus_7_14d/issue_comment config=1 tune_logloss=0.079845 best_iteration=91
+2026-11-20 20:34:52,743 oct31/U_plus_7_14d/pr_review config=0 tune_logloss=0.080716 best_iteration=91
+2026-11-20 20:34:53,396 oct31/U_plus_7_14d/pr_review config=1 tune_logloss=0.080807 best_iteration=90
+2026-11-20 20:34:53,790 oct31/U_plus_7_14d/pr_review_comment config=0 tune_logloss=0.037612 best_iteration=77
+2026-11-20 20:34:54,281 oct31/U_plus_7_14d/pr_review_comment config=1 tune_logloss=0.038161 best_iteration=85
+2026-11-20 20:34:54,872 RESULT oct31 U_plus_7_14d Score=0.4131 elapsed=22.9s
+2026-11-20 20:34:54,877 DONE elapsed=22.9s
+                                  mean       std       min       max
+arm                                                                 
+U_history                     0.409528  0.029716  0.385908  0.452415
+U_plus_7d                     0.399219  0.017601  0.373781  0.412083
+U_plus_7_14_30d               0.388671  0.019453  0.360810  0.404699
+U_plus_windows_recency        0.396731  0.017087  0.372400  0.411906
+U_plus_windows_recency_trend  0.396947  0.015869  0.373606  0.408328
+U_plus_7_14d                  0.394392  0.020905  0.364712  0.413122

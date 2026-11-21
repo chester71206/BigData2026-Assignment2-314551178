@@ -1,0 +1,15 @@
+digraph Pipeline {
+  graph [rankdir=LR, bgcolor="white", splines=ortho];
+  node [shape=box, style="rounded,filled", fillcolor="#e9f2fb", color="#3a6080", fontname="DejaVu Sans"];
+  edge [color="#53697d"];
+  raw [label="GH Archive\nhour files"];
+  prep [label="Instructor preprocess.py\nanonymization"];
+  tables [label="Eight Parquet\nrelational tables"];
+  windows [label="UTC weekly cutoffs\nvisible rows only"];
+  features [label="User / Temporal /\nRelational features"];
+  models [label="Six LightGBM\nbinary models"];
+  tuning [label="Separate threshold week\nearly stopping + F1 cutoffs"];
+  eval [label="Later holdout week\nteacher evaluate.py"];
+  output [label="Provisional / final\n4465-row CSV"];
+  raw -> prep -> tables -> windows -> features -> models -> tuning -> eval -> output;
+}

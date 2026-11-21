@@ -1,0 +1,10 @@
+Format check: no errors (4465 users)
+  open_pr            F1  44.34%
+  open_issue         F1  34.93%
+  issue_comment      F1  42.01%
+  pr_review          F1  38.57%
+  pr_review_comment  F1  42.15%
+  push               F1  74.05%
+macro-F1: 46.01%
+micro-F1: 60.44%
+Score:    53.22%

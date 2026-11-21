@@ -1,0 +1,21 @@
+digraph Pipeline {
+      graph [rankdir=LR, bgcolor="white", nodesep=0.38, ranksep=0.46,
+             fontname="Helvetica", pad="0.12"];
+      node [shape=box, style="rounded", color="black", fontname="Helvetica",
+            fontsize=12, margin="0.14,0.10"];
+      edge [color="black", arrowsize=0.75];
+      raw [label="GH Archive\nhourly files"];
+      prep [label="Instructor\npreprocess.py"];
+      db [label="Eight Parquet\ntables"];
+      feat [label="Visible-at-t joins\nUser / Temporal / Relation"];
+      fold [label="Four chronological\nbacktests"];
+      select [label="Select method\nby mean five-class Score"];
+      tune [label="Last complete week\nstop + thresholds"];
+      refit [label="Refit all eligible\nlabeled weeks"];
+      out [label="Six classifiers\n4,465-row CSV"];
+      quality [label="Coverage audit\npush-safe week mask"];
+      raw -> prep -> db -> feat -> fold -> select -> tune -> refit -> out;
+      db -> quality -> fold;
+      quality -> tune;
+      quality -> refit;
+    }

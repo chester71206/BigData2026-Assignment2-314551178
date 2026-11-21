@@ -1,0 +1,18 @@
+{
+  "train_weeks_utc": [
+    "2026-09-26 16:00:00",
+    "2026-10-03 16:00:00",
+    "2026-10-10 16:00:00",
+    "2026-10-17 16:00:00",
+    "2026-10-24 16:00:00"
+  ],
+  "threshold_week_utc": "2026-10-31 16:00:00",
+  "evaluation_week_utc": "2026-11-07 16:00:00",
+  "prediction_time_utc": "2026-11-16 16:00:00",
+  "official_cutoff_utc": "2026-11-21 16:00:00",
+  "best_experiment": "D_user_temporal_relational",
+  "cohort_size": 9000,
+  "test_size": 4465,
+  "lightgbm_version": "4.7.0",
+  "threads": 4
+}

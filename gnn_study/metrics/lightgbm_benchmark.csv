@@ -1,0 +1,10 @@
+fold,arm,train_seconds,inference_seconds,peak_rss_gb,trained_binary_models,note
+sep26_six,B_user,1.1452329121530056,0.014900114387273788,0.760365056,6,features precomputed; two LightGBM configs per activity
+sep26_six,C_user_temporal,2.1476557180285454,0.028059516102075577,0.763695104,6,features precomputed; two LightGBM configs per activity
+sep26_six,F_repo_interactions,2.6112954765558243,0.03592938929796219,0.764772352,6,features precomputed; two LightGBM configs per activity
+oct10_five,B_user,3.120717339217663,0.035623699426651,0.765210624,5,features precomputed; two LightGBM configs per activity
+oct10_five,C_user_temporal,3.6702102832496166,0.03133447840809822,0.765952,5,features precomputed; two LightGBM configs per activity
+oct10_five,F_repo_interactions,4.232416458427906,0.04438834637403488,0.769163264,5,features precomputed; two LightGBM configs per activity
+oct17_five,B_user,2.6575882248580456,0.03090958669781685,0.769163264,5,features precomputed; two LightGBM configs per activity
+oct17_five,C_user_temporal,4.12290807440877,0.03708517551422119,0.769216512,5,features precomputed; two LightGBM configs per activity
+oct17_five,F_repo_interactions,4.652950435876846,0.041005365550518036,0.769282048,5,features precomputed; two LightGBM configs per activity

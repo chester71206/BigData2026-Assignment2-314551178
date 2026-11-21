@@ -1,0 +1,9 @@
+{
+  "first_hour_utc": "2026-09-01 00:00:00",
+  "last_hour_utc": "2026-11-16 15:00:00",
+  "expected_hours": 1840,
+  "present_hours": 1840,
+  "missing_hours": [],
+  "hours_under_1mb": {},
+  "compressed_bytes": 29779439958
+}

@@ -1,0 +1,22 @@
+{
+  "open_pr": {
+    "threshold": 0.86,
+    "tune_f1": 0.39274924471299094
+  },
+  "open_issue": {
+    "threshold": 0.76,
+    "tune_f1": 0.40186915887850466
+  },
+  "issue_comment": {
+    "threshold": 0.7741232919692996,
+    "tune_f1": 0.3811129848229342
+  },
+  "pr_review": {
+    "threshold": 0.86,
+    "tune_f1": 0.37283621837549935
+  },
+  "pr_review_comment": {
+    "threshold": 0.74,
+    "tune_f1": 0.3817427385892116
+  }
+}

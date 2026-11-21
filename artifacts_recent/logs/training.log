@@ -1,0 +1,71 @@
+2026-11-17 00:42:50,306 Data range 2026-09-01 00:00:00 to 2026-11-16 15:00:00 UTC; prediction cutoff 2026-11-16 16:00:00 UTC
+2026-11-17 00:42:51,349 Cohort=9000, test users=4465, normalized events=166748
+2026-11-17 00:42:51,351 Late-visible action rows excluded from features at eval cutoff: 210
+2026-11-17 00:42:51,663 Week 2026-09-26 16:00:00: positives={'open_pr': 592, 'open_issue': 331, 'issue_comment': 453, 'pr_review': 424, 'pr_review_comment': 299, 'push': 2718}
+2026-11-17 00:42:51,995 Week 2026-10-03 16:00:00: positives={'open_pr': 473, 'open_issue': 249, 'issue_comment': 319, 'pr_review': 313, 'pr_review_comment': 154, 'push': 2184}
+2026-11-17 00:42:52,314 Week 2026-10-10 16:00:00: positives={'open_pr': 393, 'open_issue': 236, 'issue_comment': 233, 'pr_review': 280, 'pr_review_comment': 187, 'push': 2130}
+2026-11-17 00:42:52,634 Week 2026-10-17 16:00:00: positives={'open_pr': 348, 'open_issue': 225, 'issue_comment': 212, 'pr_review': 225, 'pr_review_comment': 171, 'push': 1848}
+2026-11-17 00:42:52,951 Week 2026-10-24 16:00:00: positives={'open_pr': 333, 'open_issue': 177, 'issue_comment': 224, 'pr_review': 239, 'pr_review_comment': 75, 'push': 1009}
+2026-11-17 00:42:53,254 Week 2026-10-31 16:00:00: positives={'open_pr': 383, 'open_issue': 196, 'issue_comment': 256, 'pr_review': 275, 'pr_review_comment': 105, 'push': 283}
+2026-11-17 00:42:53,558 Week 2026-11-07 16:00:00: positives={'open_pr': 338, 'open_issue': 182, 'issue_comment': 205, 'pr_review': 233, 'pr_review_comment': 69, 'push': 277}
+2026-11-17 00:42:54,187 A_copy_last_week teacher Score: Score:    33.76%
+2026-11-17 00:42:54,607 B_user/open_pr config=0 tune_logloss=0.121968 best_iteration=91
+2026-11-17 00:42:55,001 B_user/open_pr config=1 tune_logloss=0.122827 best_iteration=70
+2026-11-17 00:42:55,036 B_user/open_pr threshold=0.2200 tune_F1=0.4460 eval_predicted_positive=330
+2026-11-17 00:42:55,383 B_user/open_issue config=0 tune_logloss=0.067130 best_iteration=95
+2026-11-17 00:42:55,762 B_user/open_issue config=1 tune_logloss=0.067568 best_iteration=66
+2026-11-17 00:42:55,780 B_user/open_issue threshold=0.2600 tune_F1=0.4365 eval_predicted_positive=159
+2026-11-17 00:42:56,188 B_user/issue_comment config=0 tune_logloss=0.084034 best_iteration=115
+2026-11-17 00:42:56,658 B_user/issue_comment config=1 tune_logloss=0.084851 best_iteration=81
+2026-11-17 00:42:56,675 B_user/issue_comment threshold=0.1200 tune_F1=0.3843 eval_predicted_positive=373
+2026-11-17 00:42:57,080 B_user/pr_review config=0 tune_logloss=0.080927 best_iteration=111
+2026-11-17 00:42:57,554 B_user/pr_review config=1 tune_logloss=0.081410 best_iteration=93
+2026-11-17 00:42:57,571 B_user/pr_review threshold=0.2200 tune_F1=0.4458 eval_predicted_positive=207
+2026-11-17 00:42:57,936 B_user/pr_review_comment config=0 tune_logloss=0.041072 best_iteration=100
+2026-11-17 00:42:58,368 B_user/pr_review_comment config=1 tune_logloss=0.041524 best_iteration=82
+2026-11-17 00:42:58,380 B_user/pr_review_comment threshold=0.1600 tune_F1=0.3371 eval_predicted_positive=60
+2026-11-17 00:42:58,995 B_user/push config=0 tune_logloss=0.194196 best_iteration=215
+2026-11-17 00:42:59,751 B_user/push config=1 tune_logloss=0.192156 best_iteration=169
+2026-11-17 00:42:59,782 B_user/push threshold=0.6200 tune_F1=0.3434 eval_predicted_positive=255
+2026-11-17 00:43:00,387 B_user teacher Score: Score:    38.54%
+2026-11-17 00:43:01,142 C_user_temporal/open_pr config=0 tune_logloss=0.121840 best_iteration=126
+2026-11-17 00:43:01,857 C_user_temporal/open_pr config=1 tune_logloss=0.122998 best_iteration=84
+2026-11-17 00:43:01,881 C_user_temporal/open_pr threshold=0.1466 tune_F1=0.4415 eval_predicted_positive=348
+2026-11-17 00:43:02,395 C_user_temporal/open_issue config=0 tune_logloss=0.067118 best_iteration=86
+2026-11-17 00:43:02,958 C_user_temporal/open_issue config=1 tune_logloss=0.067707 best_iteration=60
+2026-11-17 00:43:02,975 C_user_temporal/open_issue threshold=0.2200 tune_F1=0.4313 eval_predicted_positive=164
+2026-11-17 00:43:03,499 C_user_temporal/issue_comment config=0 tune_logloss=0.082534 best_iteration=107
+2026-11-17 00:43:04,213 C_user_temporal/issue_comment config=1 tune_logloss=0.083160 best_iteration=109
+2026-11-17 00:43:04,229 C_user_temporal/issue_comment threshold=0.1364 tune_F1=0.4259 eval_predicted_positive=258
+2026-11-17 00:43:04,768 C_user_temporal/pr_review config=0 tune_logloss=0.080464 best_iteration=109
+2026-11-17 00:43:05,392 C_user_temporal/pr_review config=1 tune_logloss=0.080398 best_iteration=92
+2026-11-17 00:43:05,410 C_user_temporal/pr_review threshold=0.1400 tune_F1=0.4564 eval_predicted_positive=286
+2026-11-17 00:43:05,862 C_user_temporal/pr_review_comment config=0 tune_logloss=0.039711 best_iteration=77
+2026-11-17 00:43:06,405 C_user_temporal/pr_review_comment config=1 tune_logloss=0.040066 best_iteration=72
+2026-11-17 00:43:06,418 C_user_temporal/pr_review_comment threshold=0.1000 tune_F1=0.3435 eval_predicted_positive=119
+2026-11-17 00:43:07,126 C_user_temporal/push config=0 tune_logloss=0.173200 best_iteration=181
+2026-11-17 00:43:08,264 C_user_temporal/push config=1 tune_logloss=0.172689 best_iteration=214
+2026-11-17 00:43:08,295 C_user_temporal/push threshold=0.5000 tune_F1=0.3240 eval_predicted_positive=142
+2026-11-17 00:43:08,899 C_user_temporal teacher Score: Score:    39.89%
+2026-11-17 00:43:09,573 D_user_temporal_relational/open_pr config=0 tune_logloss=0.122308 best_iteration=108
+2026-11-17 00:43:10,294 D_user_temporal_relational/open_pr config=1 tune_logloss=0.122991 best_iteration=81
+2026-11-17 00:43:10,310 D_user_temporal_relational/open_pr threshold=0.1400 tune_F1=0.4400 eval_predicted_positive=356
+2026-11-17 00:43:10,805 D_user_temporal_relational/open_issue config=0 tune_logloss=0.066396 best_iteration=69
+2026-11-17 00:43:11,450 D_user_temporal_relational/open_issue config=1 tune_logloss=0.067068 best_iteration=64
+2026-11-17 00:43:11,469 D_user_temporal_relational/open_issue threshold=0.2200 tune_F1=0.4420 eval_predicted_positive=156
+2026-11-17 00:43:12,152 D_user_temporal_relational/issue_comment config=0 tune_logloss=0.082981 best_iteration=116
+2026-11-17 00:43:13,017 D_user_temporal_relational/issue_comment config=1 tune_logloss=0.083620 best_iteration=105
+2026-11-17 00:43:13,033 D_user_temporal_relational/issue_comment threshold=0.1413 tune_F1=0.4144 eval_predicted_positive=249
+2026-11-17 00:43:13,618 D_user_temporal_relational/pr_review config=0 tune_logloss=0.081504 best_iteration=101
+2026-11-17 00:43:14,418 D_user_temporal_relational/pr_review config=1 tune_logloss=0.080732 best_iteration=102
+2026-11-17 00:43:14,440 D_user_temporal_relational/pr_review threshold=0.1800 tune_F1=0.4561 eval_predicted_positive=200
+2026-11-17 00:43:14,928 D_user_temporal_relational/pr_review_comment config=0 tune_logloss=0.039124 best_iteration=87
+2026-11-17 00:43:15,478 D_user_temporal_relational/pr_review_comment config=1 tune_logloss=0.040045 best_iteration=70
+2026-11-17 00:43:15,493 D_user_temporal_relational/pr_review_comment threshold=0.1200 tune_F1=0.3458 eval_predicted_positive=90
+2026-11-17 00:43:16,183 D_user_temporal_relational/push config=0 tune_logloss=0.172704 best_iteration=154
+2026-11-17 00:43:16,838 D_user_temporal_relational/push config=1 tune_logloss=0.175127 best_iteration=91
+2026-11-17 00:43:16,857 D_user_temporal_relational/push threshold=0.5600 tune_F1=0.3448 eval_predicted_positive=97
+2026-11-17 00:43:17,505 D_user_temporal_relational teacher Score: Score:    40.75%
+2026-11-17 00:43:18,090 Best holdout experiment: D_user_temporal_relational
+2026-11-17 00:43:22,467 Format check: no errors (4465 users)
+2026-11-17 00:43:22,468 Wrote artifacts/predictions/provisional_prediction.csv

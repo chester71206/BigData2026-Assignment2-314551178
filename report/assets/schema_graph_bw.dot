@@ -1,0 +1,43 @@
+digraph Schema {
+      graph [rankdir=LR, bgcolor="white", splines=ortho, nodesep=0.90,
+             ranksep=0.90, outputorder=edgesfirst, pad=0.12];
+      node [shape=box, style="rounded,filled", fillcolor="white", color="black",
+            penwidth=1.2, fontname="DejaVu Sans Mono", fontsize=12, margin="0.14,0.10"];
+      edge [color="#666666", penwidth=0.85, arrowsize=0.55];
+      Users [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="0"><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">Users</FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">PK  user<SUB>id</SUB></FONT></TD></TR></TABLE>>, penwidth=2];
+      Repositories [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="0"><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">Repositories</FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">PK  repo<SUB>id</SUB></FONT></TD></TR></TABLE>>, penwidth=2];
+      PullRequests [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="0"><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">PullRequests</FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">PK  pr<SUB>id</SUB></FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">FK  repo<SUB>id</SUB> &#183; author<SUB>id</SUB></FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">FK  merged_by<SUB>id</SUB></FONT></TD></TR></TABLE>>];
+      Issues [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="0"><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">Issues</FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">PK  issue<SUB>id</SUB></FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">FK  repo<SUB>id</SUB> &#183; author<SUB>id</SUB></FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">FK  pull_request<SUB>id</SUB> &#183; assignee<SUB>id</SUB></FONT></TD></TR></TABLE>>];
+      IssueComments [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="0"><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">IssueComments</FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">PK  comment<SUB>id</SUB></FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">FK  issue<SUB>id</SUB> &#183; repo<SUB>id</SUB> &#183; author<SUB>id</SUB></FONT></TD></TR></TABLE>>];
+      PRReviews [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="0"><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">PRReviews</FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">PK  review<SUB>id</SUB></FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">FK  pr<SUB>id</SUB> &#183; repo<SUB>id</SUB> &#183; reviewer<SUB>id</SUB></FONT></TD></TR></TABLE>>];
+      PRReviewComments [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="0"><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">PRReviewComments</FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">PK  comment<SUB>id</SUB></FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">FK  pr<SUB>id</SUB> &#183; repo<SUB>id</SUB> &#183; author<SUB>id</SUB></FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">FK  pull_request_review<SUB>id</SUB> &#183; in_reply_to<SUB>id</SUB></FONT></TD></TR></TABLE>>];
+      Pushes [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="0"><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">Pushes</FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">PK  push<SUB>id</SUB></FONT></TD></TR><TR><TD ALIGN="CENTER"><FONT FACE="DejaVu Sans Mono">FK  user<SUB>id</SUB> &#183; repo<SUB>id</SUB></FONT></TD></TR></TABLE>>];
+      {rank=same; PRReviewComments; IssueComments;}
+      {rank=same; PRReviews; Issues;}
+      {rank=same; PullRequests; Pushes;}
+      {rank=same; Users; Repositories;}
+      PRReviewComments -> IssueComments [style=invis, weight=10];
+      PRReviews -> Issues [style=invis, weight=10];
+      PullRequests -> Pushes [style=invis, weight=10];
+      Users -> Repositories [style=invis, weight=10];
+      PullRequests -> Repositories [minlen=1, style=dashed, color="#999999"];
+      PullRequests -> Users;
+      PullRequests -> Users;
+      Issues -> Repositories [style=dashed, color="#999999"];
+      Issues -> Users;
+      Issues -> PullRequests;
+      Issues -> Users;
+      IssueComments -> Issues;
+      IssueComments -> Repositories [style=dashed, color="#999999"];
+      IssueComments -> Users;
+      PRReviews -> PullRequests;
+      PRReviews -> Repositories [style=dashed, color="#999999"];
+      PRReviews -> Users;
+      PRReviewComments -> PullRequests;
+      PRReviewComments -> Repositories [style=dashed, color="#999999"];
+      PRReviewComments -> Users;
+      PRReviewComments -> PRReviews;
+      PRReviewComments -> PRReviewComments [constraint=false];
+      Pushes -> Users;
+      Pushes -> Repositories [style=dashed, color="#999999"];
+    }

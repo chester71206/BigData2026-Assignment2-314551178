@@ -1,0 +1,9 @@
+skip existing A_gcn sep26_six seed=42
+skip existing A_gcn oct10_five seed=42
+skip existing A_gcn oct17_five seed=42
+skip existing B_gcn_temporal sep26_six seed=42
+skip existing B_gcn_temporal oct10_five seed=42
+skip existing B_gcn_temporal oct17_five seed=42
+skip existing C_hetero sep26_six seed=42
+skip existing C_hetero oct10_five seed=42
+skip existing C_hetero oct17_five seed=42

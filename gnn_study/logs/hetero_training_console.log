@@ -1,0 +1,3 @@
+C_hetero sep26_six: five=0.4077 score=0.5309 epochs=9 train=5.4s
+C_hetero oct10_five: five=0.3755 score=0.3755 epochs=16 train=22.2s
+C_hetero oct17_five: five=0.3571 score=0.3571 epochs=16 train=25.9s

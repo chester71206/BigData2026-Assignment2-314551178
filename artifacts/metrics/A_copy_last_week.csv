@@ -1,0 +1,7 @@
+experiment,activity,f1,truth_positives,predicted_positives,threshold
+A_copy_last_week,open_pr,0.35294117647058826,386,464,1
+A_copy_last_week,open_issue,0.3924050632911392,230,244,1
+A_copy_last_week,issue_comment,0.32234432234432236,231,315,1
+A_copy_last_week,pr_review,0.3463497453310696,277,312,1
+A_copy_last_week,pr_review_comment,0.35502958579881655,186,152,1
+A_copy_last_week,push,0.6569555717407137,2027,2092,1

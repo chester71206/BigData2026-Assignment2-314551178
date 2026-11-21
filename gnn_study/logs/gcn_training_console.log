@@ -1,0 +1,6 @@
+A_gcn sep26_six: five=0.3698 score=0.4961 epochs=18 train=6.7s
+A_gcn oct10_five: five=0.3408 score=0.3408 epochs=24 train=21.6s
+A_gcn oct17_five: five=0.3445 score=0.3445 epochs=24 train=27.3s
+B_gcn_temporal sep26_six: five=0.3931 score=0.5173 epochs=22 train=5.1s
+B_gcn_temporal oct10_five: five=0.3625 score=0.3625 epochs=24 train=16.2s
+B_gcn_temporal oct17_five: five=0.3505 score=0.3505 epochs=24 train=27.4s

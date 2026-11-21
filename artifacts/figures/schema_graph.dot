@@ -1,0 +1,33 @@
+digraph Schema {
+  graph [rankdir=TB, bgcolor="white", splines=true, nodesep=0.65, ranksep=0.9];
+  node [shape=box, style="rounded,filled", fillcolor="#e9f2fb", color="#3a6080", fontname="DejaVu Sans", fontsize=11];
+  edge [color="#53697d", fontname="DejaVu Sans", fontsize=8];
+  Users [label="Users\nPK: user_id"];
+  Repositories [label="Repositories\nPK: repo_id"];
+  PullRequests [label="PullRequests\nPK: pr_id\nFK: repo_id\nFK: author_id\nFK: merged_by_id"];
+  Issues [label="Issues\nPK: issue_id\nFK: repo_id\nFK: author_id\nFK: pull_request_id\nFK: assignee_id"];
+  IssueComments [label="IssueComments\nPK: comment_id\nFK: issue_id\nFK: repo_id\nFK: author_id"];
+  PRReviews [label="PRReviews\nPK: review_id\nFK: pr_id\nFK: repo_id\nFK: reviewer_id"];
+  PRReviewComments [label="PRReviewComments\nPK: comment_id\nFK: pr_id\nFK: repo_id\nFK: author_id\nFK: pull_request_review_id\nFK: in_reply_to_id"];
+  Pushes [label="Pushes\nPK: push_id\nFK: user_id\nFK: repo_id"];
+  PullRequests -> Repositories [label="repo_id → repo_id"];
+  PullRequests -> Users [label="author_id → user_id"];
+  PullRequests -> Users [label="merged_by_id → user_id"];
+  Issues -> Repositories [label="repo_id → repo_id"];
+  Issues -> Users [label="author_id → user_id"];
+  Issues -> PullRequests [label="pull_request_id → pr_id"];
+  Issues -> Users [label="assignee_id → user_id"];
+  IssueComments -> Issues [label="issue_id → issue_id"];
+  IssueComments -> Repositories [label="repo_id → repo_id"];
+  IssueComments -> Users [label="author_id → user_id"];
+  PRReviews -> PullRequests [label="pr_id → pr_id"];
+  PRReviews -> Repositories [label="repo_id → repo_id"];
+  PRReviews -> Users [label="reviewer_id → user_id"];
+  PRReviewComments -> PullRequests [label="pr_id → pr_id"];
+  PRReviewComments -> Repositories [label="repo_id → repo_id"];
+  PRReviewComments -> Users [label="author_id → user_id"];
+  PRReviewComments -> PRReviews [label="pull_request_review_id → review_id"];
+  PRReviewComments -> PRReviewComments [label="in_reply_to_id → comment_id"];
+  Pushes -> Users [label="user_id → user_id"];
+  Pushes -> Repositories [label="repo_id → repo_id"];
+}

@@ -1,0 +1,31 @@
+digraph GNN {
+  graph [rankdir=LR, bgcolor="white", fontname="Noto Sans CJK TC", pad="0.3", nodesep="0.35"];
+  node [shape=box, style="rounded,filled", fillcolor="#EFF6FF", color="#4575A8", fontname="Noto Sans CJK TC", fontsize=12];
+  edge [color="#537590", arrowsize=0.8];
+  tables [label="八張老師預處理 Parquet 表\n依 row time 過濾 < prediction_time"];
+  snapshot [label="異質圖快照\n8 節點類型、19 個安全 FK\n每種關係保留正反方向"];
+  user [label="User 累積特徵\n18 維"];
+  temporal [label="Temporal 特徵\n7 / 14 / 30 天、Recency\n44 維"];
+  a [label="A: 兩層同質 GCN\nUser + 節點類型 / 年齡"];
+  b [label="B: 兩層同質 GCN\nUser + Temporal"];
+  c [label="C: 兩層異質 SAGEConv\nHeteroConv 區分 FK 類型"];
+  head [label="User 六維 sigmoid\n各活動獨立 threshold"];
+  labels [label="後續七天六類標籤\n缺漏週跳過 push"];
+  eval [label="老師 evaluate.py\nMacro-F1 / Micro-F1 / Score"];
+  tables -> snapshot;
+  tables -> user;
+  tables -> temporal;
+  snapshot -> a;
+  snapshot -> b;
+  snapshot -> c;
+  user -> a;
+  user -> b;
+  user -> c;
+  temporal -> b;
+  temporal -> c;
+  a -> head;
+  b -> head;
+  c -> head;
+  head -> eval;
+  labels -> eval;
+}

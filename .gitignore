@@ -1,0 +1,11 @@
+raw_data/
+data/
+__pycache__/
+.venv/
+artifacts_misaligned/
+relational_study_archive/
+gnn_study/snapshots/
+gnn_study/stability_seed*/snapshots
+report/build.log
+report/*_preview.png
+*Big Data Course - Assignment 2 .pdf

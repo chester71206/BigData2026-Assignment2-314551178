@@ -1,0 +1,7 @@
+experiment,activity,f1,truth_positives,predicted_positives,threshold
+D_user_temporal_relational,open_pr,0.41420118343195267,320,356,0.13999999999999999
+D_user_temporal_relational,open_issue,0.5,172,156,0.22
+D_user_temporal_relational,issue_comment,0.3991031390134529,197,249,0.14126886558007537
+D_user_temporal_relational,pr_review,0.45023696682464454,222,200,0.18
+D_user_temporal_relational,pr_review_comment,0.3974358974358974,66,90,0.12000000000000001
+D_user_temporal_relational,push,0.27932960893854747,261,97,0.56

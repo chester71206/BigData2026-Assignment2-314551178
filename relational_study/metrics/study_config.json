@@ -1,0 +1,62 @@
+{
+  "folds": [
+    {
+      "name": "sep26_six",
+      "train": [
+        "2026-09-05 16:00:00",
+        "2026-09-12 16:00:00"
+      ],
+      "tune": "2026-09-19 16:00:00",
+      "eval": "2026-09-26 16:00:00"
+    },
+    {
+      "name": "oct10_five",
+      "train": [
+        "2026-09-12 16:00:00",
+        "2026-09-19 16:00:00",
+        "2026-09-26 16:00:00"
+      ],
+      "tune": "2026-10-03 16:00:00",
+      "eval": "2026-10-10 16:00:00"
+    },
+    {
+      "name": "oct17_five",
+      "train": [
+        "2026-09-19 16:00:00",
+        "2026-09-26 16:00:00",
+        "2026-10-03 16:00:00"
+      ],
+      "tune": "2026-10-10 16:00:00",
+      "eval": "2026-10-17 16:00:00"
+    }
+  ],
+  "arms": {
+    "A_copy": [],
+    "B_user": [
+      "user"
+    ],
+    "C_user_temporal": [
+      "user",
+      "temporal"
+    ],
+    "R_repo_volume": [
+      "user",
+      "temporal",
+      "repo_only"
+    ],
+    "I_interactions": [
+      "user",
+      "temporal",
+      "interaction"
+    ],
+    "F_repo_interactions": [
+      "user",
+      "temporal",
+      "repo_only",
+      "interaction"
+    ]
+  },
+  "raw_last_hour_utc": "2026-11-16 15:00:00",
+  "scoring_policy": "push omitted in a fold if any train/tune/eval week includes a full UTC zero-push day",
+  "threads": 4
+}

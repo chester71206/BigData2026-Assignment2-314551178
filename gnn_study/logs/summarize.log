@@ -1,0 +1,16 @@
+Stability:
+                 mean       std       min       max
+fold                                              
+oct10_five  0.346860  0.030967  0.313975  0.375465
+oct17_five  0.354043  0.025160  0.327501  0.377546
+sep26_six   0.397388  0.015952  0.379017  0.407732
+Top masked relations:
+                       edge  drop_when_masked
+PRReviewComments.author_id          0.121796
+     PRReviews.reviewer_id          0.105401
+   IssueComments.author_id          0.085027
+    PullRequests.author_id          0.077445
+            Pushes.user_id          0.067000
+          Issues.author_id          0.061879
+        Issues.assignee_id          0.035021
+    PRReviewComments.pr_id          0.006537

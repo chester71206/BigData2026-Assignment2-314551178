@@ -1,0 +1,5 @@
+cutoff_utc,reviews_30d,reviews_joined_to_visible_pr,reviews_with_known_pr_author,known_author_fraction,unique_reviewer_author_pairs,repeated_reviewer_author_pairs,reviewer_repo_pairs,reviewer_repo_pairs_with_2plus_prs,prs_with_2plus_reviewers,review_code_comments_same_pr,users_with_review_code_comments_same_pr
+2026-09-26 16:00:00,9054,9048,2587,0.28573006406008394,397,201,2124,867,38,5596,607
+2026-10-10 16:00:00,6799,6799,1308,0.1923812325341962,271,128,1980,773,22,3348,512
+2026-10-17 16:00:00,3022,3020,216,0.071475843812045,87,32,1284,444,6,793,214
+2026-11-16 16:00:00,1895,1895,41,0.02163588390501319,31,3,941,260,2,132,70

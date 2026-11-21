@@ -1,0 +1,7 @@
+experiment,activity,f1,truth_positives,predicted_positives,threshold
+B_user,open_pr,0.39076923076923076,320,330,0.22
+B_user,open_issue,0.4471299093655589,172,159,0.26
+B_user,issue_comment,0.3368421052631579,197,373,0.12000000000000001
+B_user,pr_review,0.3962703962703963,222,207,0.22
+B_user,pr_review_comment,0.3968253968253968,66,60,0.16
+B_user,push,0.3643410852713178,261,255,0.62

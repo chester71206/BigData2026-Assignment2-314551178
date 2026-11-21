@@ -1,0 +1,296 @@
+2026-11-20 15:03:12,302 Loaded 10 label weeks, cohort=9000, test=4465, latest=2026-11-20 06:00:00
+2026-11-20 15:03:12,698 sep26/B_user/open_pr config=0 tune_logloss=0.202120 best_iteration=19
+2026-11-20 15:03:12,776 sep26/B_user/open_pr config=1 tune_logloss=0.201093 best_iteration=18
+2026-11-20 15:03:12,903 sep26/B_user/open_issue config=0 tune_logloss=0.102708 best_iteration=58
+2026-11-20 15:03:13,004 sep26/B_user/open_issue config=1 tune_logloss=0.102954 best_iteration=30
+2026-11-20 15:03:13,082 sep26/B_user/issue_comment config=0 tune_logloss=0.160220 best_iteration=17
+2026-11-20 15:03:13,161 sep26/B_user/issue_comment config=1 tune_logloss=0.159535 best_iteration=19
+2026-11-20 15:03:13,239 sep26/B_user/pr_review config=0 tune_logloss=0.134480 best_iteration=20
+2026-11-20 15:03:13,326 sep26/B_user/pr_review config=1 tune_logloss=0.134856 best_iteration=25
+2026-11-20 15:03:13,403 sep26/B_user/pr_review_comment config=0 tune_logloss=0.106899 best_iteration=17
+2026-11-20 15:03:13,489 sep26/B_user/pr_review_comment config=1 tune_logloss=0.106867 best_iteration=22
+2026-11-20 15:03:13,676 sep26/C_user_temporal/open_pr config=0 tune_logloss=0.192937 best_iteration=24
+2026-11-20 15:03:13,845 sep26/C_user_temporal/open_pr config=1 tune_logloss=0.191103 best_iteration=32
+2026-11-20 15:03:14,041 sep26/C_user_temporal/open_issue config=0 tune_logloss=0.096919 best_iteration=52
+2026-11-20 15:03:14,263 sep26/C_user_temporal/open_issue config=1 tune_logloss=0.096879 best_iteration=50
+2026-11-20 15:03:14,404 sep26/C_user_temporal/issue_comment config=0 tune_logloss=0.156349 best_iteration=19
+2026-11-20 15:03:14,553 sep26/C_user_temporal/issue_comment config=1 tune_logloss=0.154582 best_iteration=25
+2026-11-20 15:03:14,706 sep26/C_user_temporal/pr_review config=0 tune_logloss=0.130892 best_iteration=27
+2026-11-20 15:03:14,874 sep26/C_user_temporal/pr_review config=1 tune_logloss=0.130378 best_iteration=32
+2026-11-20 15:03:15,040 sep26/C_user_temporal/pr_review_comment config=0 tune_logloss=0.101090 best_iteration=34
+2026-11-20 15:03:15,209 sep26/C_user_temporal/pr_review_comment config=1 tune_logloss=0.101330 best_iteration=33
+2026-11-20 15:03:15,389 sep26/D_original_relational/open_pr config=0 tune_logloss=0.192989 best_iteration=22
+2026-11-20 15:03:15,569 sep26/D_original_relational/open_pr config=1 tune_logloss=0.190702 best_iteration=32
+2026-11-20 15:03:15,798 sep26/D_original_relational/open_issue config=0 tune_logloss=0.096451 best_iteration=55
+2026-11-20 15:03:16,027 sep26/D_original_relational/open_issue config=1 tune_logloss=0.097220 best_iteration=49
+2026-11-20 15:03:16,196 sep26/D_original_relational/issue_comment config=0 tune_logloss=0.154177 best_iteration=22
+2026-11-20 15:03:16,370 sep26/D_original_relational/issue_comment config=1 tune_logloss=0.154399 best_iteration=28
+2026-11-20 15:03:16,543 sep26/D_original_relational/pr_review config=0 tune_logloss=0.130115 best_iteration=27
+2026-11-20 15:03:16,730 sep26/D_original_relational/pr_review config=1 tune_logloss=0.129340 best_iteration=32
+2026-11-20 15:03:16,917 sep26/D_original_relational/pr_review_comment config=0 tune_logloss=0.102776 best_iteration=30
+2026-11-20 15:03:17,174 sep26/D_original_relational/pr_review_comment config=1 tune_logloss=0.102168 best_iteration=30
+2026-11-20 15:03:17,343 sep26/R_repo_volume/open_pr config=0 tune_logloss=0.192674 best_iteration=23
+2026-11-20 15:03:17,509 sep26/R_repo_volume/open_pr config=1 tune_logloss=0.191202 best_iteration=27
+2026-11-20 15:03:17,703 sep26/R_repo_volume/open_issue config=0 tune_logloss=0.096797 best_iteration=44
+2026-11-20 15:03:17,962 sep26/R_repo_volume/open_issue config=1 tune_logloss=0.095822 best_iteration=62
+2026-11-20 15:03:18,112 sep26/R_repo_volume/issue_comment config=0 tune_logloss=0.155171 best_iteration=19
+2026-11-20 15:03:18,269 sep26/R_repo_volume/issue_comment config=1 tune_logloss=0.154764 best_iteration=23
+2026-11-20 15:03:18,437 sep26/R_repo_volume/pr_review config=0 tune_logloss=0.130697 best_iteration=30
+2026-11-20 15:03:18,602 sep26/R_repo_volume/pr_review config=1 tune_logloss=0.130543 best_iteration=29
+2026-11-20 15:03:18,772 sep26/R_repo_volume/pr_review_comment config=0 tune_logloss=0.102547 best_iteration=32
+2026-11-20 15:03:18,953 sep26/R_repo_volume/pr_review_comment config=1 tune_logloss=0.101790 best_iteration=31
+2026-11-20 15:03:19,147 sep26/I_interactions/open_pr config=0 tune_logloss=0.191499 best_iteration=27
+2026-11-20 15:03:19,321 sep26/I_interactions/open_pr config=1 tune_logloss=0.190917 best_iteration=30
+2026-11-20 15:03:19,521 sep26/I_interactions/open_issue config=0 tune_logloss=0.096919 best_iteration=48
+2026-11-20 15:03:19,965 sep26/I_interactions/open_issue config=1 tune_logloss=0.096173 best_iteration=116
+2026-11-20 15:03:20,133 sep26/I_interactions/issue_comment config=0 tune_logloss=0.154859 best_iteration=19
+2026-11-20 15:03:20,286 sep26/I_interactions/issue_comment config=1 tune_logloss=0.153664 best_iteration=23
+2026-11-20 15:03:20,458 sep26/I_interactions/pr_review config=0 tune_logloss=0.130355 best_iteration=29
+2026-11-20 15:03:20,625 sep26/I_interactions/pr_review config=1 tune_logloss=0.129690 best_iteration=29
+2026-11-20 15:03:20,808 sep26/I_interactions/pr_review_comment config=0 tune_logloss=0.101528 best_iteration=37
+2026-11-20 15:03:20,992 sep26/I_interactions/pr_review_comment config=1 tune_logloss=0.100834 best_iteration=35
+2026-11-20 15:03:21,175 sep26/F_repo_interactions/open_pr config=0 tune_logloss=0.192646 best_iteration=24
+2026-11-20 15:03:21,355 sep26/F_repo_interactions/open_pr config=1 tune_logloss=0.191491 best_iteration=30
+2026-11-20 15:03:21,572 sep26/F_repo_interactions/open_issue config=0 tune_logloss=0.096376 best_iteration=52
+2026-11-20 15:03:21,999 sep26/F_repo_interactions/open_issue config=1 tune_logloss=0.095330 best_iteration=103
+2026-11-20 15:03:22,170 sep26/F_repo_interactions/issue_comment config=0 tune_logloss=0.155572 best_iteration=19
+2026-11-20 15:03:22,346 sep26/F_repo_interactions/issue_comment config=1 tune_logloss=0.154640 best_iteration=28
+2026-11-20 15:03:22,527 sep26/F_repo_interactions/pr_review config=0 tune_logloss=0.130890 best_iteration=30
+2026-11-20 15:03:22,712 sep26/F_repo_interactions/pr_review config=1 tune_logloss=0.129558 best_iteration=32
+2026-11-20 15:03:22,913 sep26/F_repo_interactions/pr_review_comment config=0 tune_logloss=0.102362 best_iteration=38
+2026-11-20 15:03:23,096 sep26/F_repo_interactions/pr_review_comment config=1 tune_logloss=0.101740 best_iteration=30
+2026-11-20 15:03:23,986 sep26/A_copy five-class Score=0.3782
+2026-11-20 15:03:24,618 sep26/B_user five-class Score=0.4524
+2026-11-20 15:03:25,220 sep26/C_user_temporal five-class Score=0.3757
+2026-11-20 15:03:25,821 sep26/D_original_relational five-class Score=0.3775
+2026-11-20 15:03:26,564 sep26/R_repo_volume five-class Score=0.3800
+2026-11-20 15:03:27,161 sep26/I_interactions five-class Score=0.3800
+2026-11-20 15:03:27,784 sep26/F_repo_interactions five-class Score=0.3809
+2026-11-20 15:03:28,188 oct10/B_user/open_pr config=0 tune_logloss=0.152155 best_iteration=167
+2026-11-20 15:03:28,494 oct10/B_user/open_pr config=1 tune_logloss=0.155094 best_iteration=86
+2026-11-20 15:03:28,937 oct10/B_user/open_issue config=0 tune_logloss=0.081169 best_iteration=239
+2026-11-20 15:03:29,393 oct10/B_user/open_issue config=1 tune_logloss=0.082335 best_iteration=137
+2026-11-20 15:03:29,869 oct10/B_user/issue_comment config=0 tune_logloss=0.105601 best_iteration=240
+2026-11-20 15:03:30,350 oct10/B_user/issue_comment config=1 tune_logloss=0.106329 best_iteration=151
+2026-11-20 15:03:30,555 oct10/B_user/pr_review config=0 tune_logloss=0.105555 best_iteration=63
+2026-11-20 15:03:30,773 oct10/B_user/pr_review config=1 tune_logloss=0.106510 best_iteration=60
+2026-11-20 15:03:30,964 oct10/B_user/pr_review_comment config=0 tune_logloss=0.067480 best_iteration=63
+2026-11-20 15:03:31,159 oct10/B_user/pr_review_comment config=1 tune_logloss=0.066798 best_iteration=39
+2026-11-20 15:03:31,618 oct10/C_user_temporal/open_pr config=0 tune_logloss=0.152241 best_iteration=74
+2026-11-20 15:03:32,100 oct10/C_user_temporal/open_pr config=1 tune_logloss=0.153844 best_iteration=58
+2026-11-20 15:03:32,529 oct10/C_user_temporal/open_issue config=0 tune_logloss=0.081795 best_iteration=68
+2026-11-20 15:03:33,042 oct10/C_user_temporal/open_issue config=1 tune_logloss=0.081625 best_iteration=63
+2026-11-20 15:03:33,570 oct10/C_user_temporal/issue_comment config=0 tune_logloss=0.107467 best_iteration=104
+2026-11-20 15:03:34,147 oct10/C_user_temporal/issue_comment config=1 tune_logloss=0.108123 best_iteration=78
+2026-11-20 15:03:34,561 oct10/C_user_temporal/pr_review config=0 tune_logloss=0.101409 best_iteration=74
+2026-11-20 15:03:35,031 oct10/C_user_temporal/pr_review config=1 tune_logloss=0.101675 best_iteration=69
+2026-11-20 15:03:35,390 oct10/C_user_temporal/pr_review_comment config=0 tune_logloss=0.063471 best_iteration=70
+2026-11-20 15:03:35,868 oct10/C_user_temporal/pr_review_comment config=1 tune_logloss=0.062497 best_iteration=78
+2026-11-20 15:03:36,302 oct10/D_original_relational/open_pr config=0 tune_logloss=0.152324 best_iteration=62
+2026-11-20 15:03:36,786 oct10/D_original_relational/open_pr config=1 tune_logloss=0.153346 best_iteration=59
+2026-11-20 15:03:37,216 oct10/D_original_relational/open_issue config=0 tune_logloss=0.081647 best_iteration=79
+2026-11-20 15:03:37,710 oct10/D_original_relational/open_issue config=1 tune_logloss=0.081874 best_iteration=66
+2026-11-20 15:03:38,159 oct10/D_original_relational/issue_comment config=0 tune_logloss=0.108624 best_iteration=82
+2026-11-20 15:03:38,751 oct10/D_original_relational/issue_comment config=1 tune_logloss=0.108466 best_iteration=87
+2026-11-20 15:03:39,171 oct10/D_original_relational/pr_review config=0 tune_logloss=0.101352 best_iteration=72
+2026-11-20 15:03:39,659 oct10/D_original_relational/pr_review config=1 tune_logloss=0.101315 best_iteration=67
+2026-11-20 15:03:40,062 oct10/D_original_relational/pr_review_comment config=0 tune_logloss=0.063886 best_iteration=67
+2026-11-20 15:03:40,602 oct10/D_original_relational/pr_review_comment config=1 tune_logloss=0.062971 best_iteration=77
+2026-11-20 15:03:41,001 oct10/R_repo_volume/open_pr config=0 tune_logloss=0.152406 best_iteration=71
+2026-11-20 15:03:41,415 oct10/R_repo_volume/open_pr config=1 tune_logloss=0.154331 best_iteration=60
+2026-11-20 15:03:41,800 oct10/R_repo_volume/open_issue config=0 tune_logloss=0.082016 best_iteration=78
+2026-11-20 15:03:42,218 oct10/R_repo_volume/open_issue config=1 tune_logloss=0.082057 best_iteration=64
+2026-11-20 15:03:43,003 oct10/R_repo_volume/issue_comment config=0 tune_logloss=0.105809 best_iteration=250
+2026-11-20 15:03:43,466 oct10/R_repo_volume/issue_comment config=1 tune_logloss=0.108752 best_iteration=69
+2026-11-20 15:03:43,865 oct10/R_repo_volume/pr_review config=0 tune_logloss=0.101243 best_iteration=71
+2026-11-20 15:03:44,276 oct10/R_repo_volume/pr_review config=1 tune_logloss=0.101446 best_iteration=62
+2026-11-20 15:03:44,627 oct10/R_repo_volume/pr_review_comment config=0 tune_logloss=0.063985 best_iteration=49
+2026-11-20 15:03:45,108 oct10/R_repo_volume/pr_review_comment config=1 tune_logloss=0.063638 best_iteration=76
+2026-11-20 15:03:45,544 oct10/I_interactions/open_pr config=0 tune_logloss=0.152283 best_iteration=82
+2026-11-20 15:03:45,934 oct10/I_interactions/open_pr config=1 tune_logloss=0.153506 best_iteration=54
+2026-11-20 15:03:46,303 oct10/I_interactions/open_issue config=0 tune_logloss=0.081487 best_iteration=69
+2026-11-20 15:03:46,772 oct10/I_interactions/open_issue config=1 tune_logloss=0.081978 best_iteration=73
+2026-11-20 15:03:47,173 oct10/I_interactions/issue_comment config=0 tune_logloss=0.107959 best_iteration=76
+2026-11-20 15:03:47,880 oct10/I_interactions/issue_comment config=1 tune_logloss=0.107010 best_iteration=128
+2026-11-20 15:03:48,254 oct10/I_interactions/pr_review config=0 tune_logloss=0.101431 best_iteration=66
+2026-11-20 15:03:48,696 oct10/I_interactions/pr_review config=1 tune_logloss=0.101262 best_iteration=68
+2026-11-20 15:03:49,092 oct10/I_interactions/pr_review_comment config=0 tune_logloss=0.063530 best_iteration=76
+2026-11-20 15:03:49,584 oct10/I_interactions/pr_review_comment config=1 tune_logloss=0.063103 best_iteration=81
+2026-11-20 15:03:50,007 oct10/F_repo_interactions/open_pr config=0 tune_logloss=0.151991 best_iteration=74
+2026-11-20 15:03:50,459 oct10/F_repo_interactions/open_pr config=1 tune_logloss=0.154016 best_iteration=64
+2026-11-20 15:03:50,871 oct10/F_repo_interactions/open_issue config=0 tune_logloss=0.082111 best_iteration=76
+2026-11-20 15:03:51,322 oct10/F_repo_interactions/open_issue config=1 tune_logloss=0.082543 best_iteration=61
+2026-11-20 15:03:51,745 oct10/F_repo_interactions/issue_comment config=0 tune_logloss=0.108233 best_iteration=78
+2026-11-20 15:03:52,673 oct10/F_repo_interactions/issue_comment config=1 tune_logloss=0.107796 best_iteration=165
+2026-11-20 15:03:53,096 oct10/F_repo_interactions/pr_review config=0 tune_logloss=0.101518 best_iteration=78
+2026-11-20 15:03:53,574 oct10/F_repo_interactions/pr_review config=1 tune_logloss=0.101271 best_iteration=72
+2026-11-20 15:03:53,977 oct10/F_repo_interactions/pr_review_comment config=0 tune_logloss=0.064031 best_iteration=70
+2026-11-20 15:03:54,461 oct10/F_repo_interactions/pr_review_comment config=1 tune_logloss=0.062612 best_iteration=73
+2026-11-20 15:03:55,124 oct10/A_copy five-class Score=0.3532
+2026-11-20 15:03:55,735 oct10/B_user five-class Score=0.3941
+2026-11-20 15:03:56,341 oct10/C_user_temporal five-class Score=0.3998
+2026-11-20 15:03:57,001 oct10/D_original_relational five-class Score=0.4050
+2026-11-20 15:03:57,694 oct10/R_repo_volume five-class Score=0.4096
+2026-11-20 15:03:58,327 oct10/I_interactions five-class Score=0.3947
+2026-11-20 15:03:59,220 oct10/F_repo_interactions five-class Score=0.4074
+2026-11-20 15:03:59,799 oct17/B_user/open_pr config=0 tune_logloss=0.133873 best_iteration=176
+2026-11-20 15:04:00,346 oct17/B_user/open_pr config=1 tune_logloss=0.133948 best_iteration=142
+2026-11-20 15:04:00,606 oct17/B_user/open_issue config=0 tune_logloss=0.086516 best_iteration=71
+2026-11-20 15:04:00,882 oct17/B_user/open_issue config=1 tune_logloss=0.086715 best_iteration=62
+2026-11-20 15:04:01,305 oct17/B_user/issue_comment config=0 tune_logloss=0.087846 best_iteration=145
+2026-11-20 15:04:01,822 oct17/B_user/issue_comment config=1 tune_logloss=0.087997 best_iteration=129
+2026-11-20 15:04:02,115 oct17/B_user/pr_review config=0 tune_logloss=0.094427 best_iteration=80
+2026-11-20 15:04:02,502 oct17/B_user/pr_review config=1 tune_logloss=0.094143 best_iteration=95
+2026-11-20 15:04:02,827 oct17/B_user/pr_review_comment config=0 tune_logloss=0.065892 best_iteration=104
+2026-11-20 15:04:03,193 oct17/B_user/pr_review_comment config=1 tune_logloss=0.066325 best_iteration=88
+2026-11-20 15:04:03,769 oct17/C_user_temporal/open_pr config=0 tune_logloss=0.131932 best_iteration=107
+2026-11-20 15:04:04,374 oct17/C_user_temporal/open_pr config=1 tune_logloss=0.131893 best_iteration=86
+2026-11-20 15:04:04,808 oct17/C_user_temporal/open_issue config=0 tune_logloss=0.083233 best_iteration=71
+2026-11-20 15:04:05,344 oct17/C_user_temporal/open_issue config=1 tune_logloss=0.083773 best_iteration=68
+2026-11-20 15:04:05,925 oct17/C_user_temporal/issue_comment config=0 tune_logloss=0.085283 best_iteration=120
+2026-11-20 15:04:06,610 oct17/C_user_temporal/issue_comment config=1 tune_logloss=0.085012 best_iteration=105
+2026-11-20 15:04:07,065 oct17/C_user_temporal/pr_review config=0 tune_logloss=0.095207 best_iteration=77
+2026-11-20 15:04:07,731 oct17/C_user_temporal/pr_review config=1 tune_logloss=0.095193 best_iteration=88
+2026-11-20 15:04:08,303 oct17/C_user_temporal/pr_review_comment config=0 tune_logloss=0.065745 best_iteration=115
+2026-11-20 15:04:08,885 oct17/C_user_temporal/pr_review_comment config=1 tune_logloss=0.066741 best_iteration=81
+2026-11-20 15:04:09,441 oct17/D_original_relational/open_pr config=0 tune_logloss=0.132191 best_iteration=80
+2026-11-20 15:04:10,073 oct17/D_original_relational/open_pr config=1 tune_logloss=0.132245 best_iteration=76
+2026-11-20 15:04:10,614 oct17/D_original_relational/open_issue config=0 tune_logloss=0.082603 best_iteration=79
+2026-11-20 15:04:11,191 oct17/D_original_relational/open_issue config=1 tune_logloss=0.083782 best_iteration=67
+2026-11-20 15:04:11,826 oct17/D_original_relational/issue_comment config=0 tune_logloss=0.085597 best_iteration=118
+2026-11-20 15:04:12,678 oct17/D_original_relational/issue_comment config=1 tune_logloss=0.084596 best_iteration=111
+2026-11-20 15:04:13,229 oct17/D_original_relational/pr_review config=0 tune_logloss=0.094981 best_iteration=78
+2026-11-20 15:04:13,940 oct17/D_original_relational/pr_review config=1 tune_logloss=0.094594 best_iteration=92
+2026-11-20 15:04:14,556 oct17/D_original_relational/pr_review_comment config=0 tune_logloss=0.065962 best_iteration=93
+2026-11-20 15:04:15,341 oct17/D_original_relational/pr_review_comment config=1 tune_logloss=0.066070 best_iteration=100
+2026-11-20 15:04:15,865 oct17/R_repo_volume/open_pr config=0 tune_logloss=0.132140 best_iteration=80
+2026-11-20 15:04:16,451 oct17/R_repo_volume/open_pr config=1 tune_logloss=0.132203 best_iteration=76
+2026-11-20 15:04:16,874 oct17/R_repo_volume/open_issue config=0 tune_logloss=0.083145 best_iteration=62
+2026-11-20 15:04:17,418 oct17/R_repo_volume/open_issue config=1 tune_logloss=0.083543 best_iteration=72
+2026-11-20 15:04:18,010 oct17/R_repo_volume/issue_comment config=0 tune_logloss=0.085098 best_iteration=130
+2026-11-20 15:04:18,645 oct17/R_repo_volume/issue_comment config=1 tune_logloss=0.085159 best_iteration=95
+2026-11-20 15:04:19,094 oct17/R_repo_volume/pr_review config=0 tune_logloss=0.095205 best_iteration=78
+2026-11-20 15:04:19,682 oct17/R_repo_volume/pr_review config=1 tune_logloss=0.094965 best_iteration=84
+2026-11-20 15:04:20,315 oct17/R_repo_volume/pr_review_comment config=0 tune_logloss=0.065376 best_iteration=145
+2026-11-20 15:04:20,898 oct17/R_repo_volume/pr_review_comment config=1 tune_logloss=0.066523 best_iteration=84
+2026-11-20 15:04:21,443 oct17/I_interactions/open_pr config=0 tune_logloss=0.131696 best_iteration=92
+2026-11-20 15:04:22,050 oct17/I_interactions/open_pr config=1 tune_logloss=0.131833 best_iteration=79
+2026-11-20 15:04:22,496 oct17/I_interactions/open_issue config=0 tune_logloss=0.082624 best_iteration=71
+2026-11-20 15:04:23,041 oct17/I_interactions/open_issue config=1 tune_logloss=0.084009 best_iteration=73
+2026-11-20 15:04:23,717 oct17/I_interactions/issue_comment config=0 tune_logloss=0.085020 best_iteration=130
+2026-11-20 15:04:24,622 oct17/I_interactions/issue_comment config=1 tune_logloss=0.084844 best_iteration=134
+2026-11-20 15:04:25,118 oct17/I_interactions/pr_review config=0 tune_logloss=0.095318 best_iteration=77
+2026-11-20 15:04:25,731 oct17/I_interactions/pr_review config=1 tune_logloss=0.095141 best_iteration=80
+2026-11-20 15:04:26,325 oct17/I_interactions/pr_review_comment config=0 tune_logloss=0.065824 best_iteration=115
+2026-11-20 15:04:26,965 oct17/I_interactions/pr_review_comment config=1 tune_logloss=0.066281 best_iteration=82
+2026-11-20 15:04:27,554 oct17/F_repo_interactions/open_pr config=0 tune_logloss=0.132117 best_iteration=79
+2026-11-20 15:04:28,216 oct17/F_repo_interactions/open_pr config=1 tune_logloss=0.132500 best_iteration=74
+2026-11-20 15:04:28,687 oct17/F_repo_interactions/open_issue config=0 tune_logloss=0.082764 best_iteration=65
+2026-11-20 15:04:29,250 oct17/F_repo_interactions/open_issue config=1 tune_logloss=0.083761 best_iteration=70
+2026-11-20 15:04:30,089 oct17/F_repo_interactions/issue_comment config=0 tune_logloss=0.085045 best_iteration=184
+2026-11-20 15:04:30,867 oct17/F_repo_interactions/issue_comment config=1 tune_logloss=0.085169 best_iteration=103
+2026-11-20 15:04:31,365 oct17/F_repo_interactions/pr_review config=0 tune_logloss=0.095231 best_iteration=75
+2026-11-20 15:04:31,989 oct17/F_repo_interactions/pr_review config=1 tune_logloss=0.094953 best_iteration=72
+2026-11-20 15:04:32,615 oct17/F_repo_interactions/pr_review_comment config=0 tune_logloss=0.065343 best_iteration=112
+2026-11-20 15:04:33,288 oct17/F_repo_interactions/pr_review_comment config=1 tune_logloss=0.066255 best_iteration=86
+2026-11-20 15:04:34,035 oct17/A_copy five-class Score=0.3460
+2026-11-20 15:04:34,790 oct17/B_user five-class Score=0.3859
+2026-11-20 15:04:35,419 oct17/C_user_temporal five-class Score=0.4094
+2026-11-20 15:04:36,052 oct17/D_original_relational five-class Score=0.4180
+2026-11-20 15:04:36,731 oct17/R_repo_volume five-class Score=0.4113
+2026-11-20 15:04:37,381 oct17/I_interactions five-class Score=0.3994
+2026-11-20 15:04:38,061 oct17/F_repo_interactions five-class Score=0.4009
+2026-11-20 15:04:38,594 oct31/B_user/open_pr config=0 tune_logloss=0.118671 best_iteration=133
+2026-11-20 15:04:39,220 oct31/B_user/open_pr config=1 tune_logloss=0.119172 best_iteration=123
+2026-11-20 15:04:39,954 oct31/B_user/open_issue config=0 tune_logloss=0.064396 best_iteration=221
+2026-11-20 15:04:40,861 oct31/B_user/open_issue config=1 tune_logloss=0.064821 best_iteration=186
+2026-11-20 15:04:41,243 oct31/B_user/issue_comment config=0 tune_logloss=0.080499 best_iteration=88
+2026-11-20 15:04:41,713 oct31/B_user/issue_comment config=1 tune_logloss=0.080694 best_iteration=95
+2026-11-20 15:04:42,144 oct31/B_user/pr_review config=0 tune_logloss=0.081240 best_iteration=108
+2026-11-20 15:04:42,608 oct31/B_user/pr_review config=1 tune_logloss=0.081336 best_iteration=96
+2026-11-20 15:04:43,094 oct31/B_user/pr_review_comment config=0 tune_logloss=0.039698 best_iteration=138
+2026-11-20 15:04:43,513 oct31/B_user/pr_review_comment config=1 tune_logloss=0.039741 best_iteration=85
+2026-11-20 15:04:44,206 oct31/C_user_temporal/open_pr config=0 tune_logloss=0.115341 best_iteration=104
+2026-11-20 15:04:45,024 oct31/C_user_temporal/open_pr config=1 tune_logloss=0.116338 best_iteration=101
+2026-11-20 15:04:45,794 oct31/C_user_temporal/open_issue config=0 tune_logloss=0.061845 best_iteration=136
+2026-11-20 15:04:46,655 oct31/C_user_temporal/open_issue config=1 tune_logloss=0.061927 best_iteration=99
+2026-11-20 15:04:47,447 oct31/C_user_temporal/issue_comment config=0 tune_logloss=0.079344 best_iteration=137
+2026-11-20 15:04:48,193 oct31/C_user_temporal/issue_comment config=1 tune_logloss=0.079756 best_iteration=85
+2026-11-20 15:04:49,073 oct31/C_user_temporal/pr_review config=0 tune_logloss=0.081435 best_iteration=164
+2026-11-20 15:04:49,831 oct31/C_user_temporal/pr_review config=1 tune_logloss=0.081642 best_iteration=91
+2026-11-20 15:04:50,411 oct31/C_user_temporal/pr_review_comment config=0 tune_logloss=0.037798 best_iteration=73
+2026-11-20 15:04:51,124 oct31/C_user_temporal/pr_review_comment config=1 tune_logloss=0.038539 best_iteration=82
+2026-11-20 15:04:52,003 oct31/D_original_relational/open_pr config=0 tune_logloss=0.115821 best_iteration=108
+2026-11-20 15:04:52,875 oct31/D_original_relational/open_pr config=1 tune_logloss=0.116404 best_iteration=87
+2026-11-20 15:04:53,565 oct31/D_original_relational/open_issue config=0 tune_logloss=0.062133 best_iteration=93
+2026-11-20 15:04:54,519 oct31/D_original_relational/open_issue config=1 tune_logloss=0.062468 best_iteration=106
+2026-11-20 15:04:55,259 oct31/D_original_relational/issue_comment config=0 tune_logloss=0.079346 best_iteration=97
+2026-11-20 15:04:56,057 oct31/D_original_relational/issue_comment config=1 tune_logloss=0.079681 best_iteration=84
+2026-11-20 15:04:56,782 oct31/D_original_relational/pr_review config=0 tune_logloss=0.082137 best_iteration=98
+2026-11-20 15:04:57,650 oct31/D_original_relational/pr_review config=1 tune_logloss=0.081811 best_iteration=90
+2026-11-20 15:04:58,381 oct31/D_original_relational/pr_review_comment config=0 tune_logloss=0.037797 best_iteration=83
+2026-11-20 15:04:59,222 oct31/D_original_relational/pr_review_comment config=1 tune_logloss=0.038203 best_iteration=85
+2026-11-20 15:04:59,985 oct31/R_repo_volume/open_pr config=0 tune_logloss=0.115790 best_iteration=115
+2026-11-20 15:05:00,863 oct31/R_repo_volume/open_pr config=1 tune_logloss=0.116360 best_iteration=102
+2026-11-20 15:05:01,634 oct31/R_repo_volume/open_issue config=0 tune_logloss=0.061759 best_iteration=111
+2026-11-20 15:05:02,660 oct31/R_repo_volume/open_issue config=1 tune_logloss=0.062017 best_iteration=111
+2026-11-20 15:05:03,473 oct31/R_repo_volume/issue_comment config=0 tune_logloss=0.079454 best_iteration=105
+2026-11-20 15:05:04,388 oct31/R_repo_volume/issue_comment config=1 tune_logloss=0.079566 best_iteration=102
+2026-11-20 15:05:05,139 oct31/R_repo_volume/pr_review config=0 tune_logloss=0.082297 best_iteration=95
+2026-11-20 15:05:06,113 oct31/R_repo_volume/pr_review config=1 tune_logloss=0.081331 best_iteration=96
+2026-11-20 15:05:06,839 oct31/R_repo_volume/pr_review_comment config=0 tune_logloss=0.037830 best_iteration=91
+2026-11-20 15:05:07,731 oct31/R_repo_volume/pr_review_comment config=1 tune_logloss=0.038214 best_iteration=91
+2026-11-20 15:05:08,656 oct31/I_interactions/open_pr config=0 tune_logloss=0.115292 best_iteration=132
+2026-11-20 15:05:09,573 oct31/I_interactions/open_pr config=1 tune_logloss=0.116031 best_iteration=100
+2026-11-20 15:05:10,551 oct31/I_interactions/open_issue config=0 tune_logloss=0.061836 best_iteration=177
+2026-11-20 15:05:11,383 oct31/I_interactions/open_issue config=1 tune_logloss=0.062076 best_iteration=93
+2026-11-20 15:05:12,124 oct31/I_interactions/issue_comment config=0 tune_logloss=0.079344 best_iteration=108
+2026-11-20 15:05:12,937 oct31/I_interactions/issue_comment config=1 tune_logloss=0.079647 best_iteration=84
+2026-11-20 15:05:13,694 oct31/I_interactions/pr_review config=0 tune_logloss=0.081662 best_iteration=111
+2026-11-20 15:05:14,502 oct31/I_interactions/pr_review config=1 tune_logloss=0.082031 best_iteration=87
+2026-11-20 15:05:15,185 oct31/I_interactions/pr_review_comment config=0 tune_logloss=0.037704 best_iteration=81
+2026-11-20 15:05:15,953 oct31/I_interactions/pr_review_comment config=1 tune_logloss=0.038451 best_iteration=81
+2026-11-20 15:05:16,821 oct31/F_repo_interactions/open_pr config=0 tune_logloss=0.115762 best_iteration=122
+2026-11-20 15:05:17,632 oct31/F_repo_interactions/open_pr config=1 tune_logloss=0.116145 best_iteration=86
+2026-11-20 15:05:18,391 oct31/F_repo_interactions/open_issue config=0 tune_logloss=0.061847 best_iteration=112
+2026-11-20 15:05:19,264 oct31/F_repo_interactions/open_issue config=1 tune_logloss=0.062156 best_iteration=94
+2026-11-20 15:05:20,157 oct31/F_repo_interactions/issue_comment config=0 tune_logloss=0.079373 best_iteration=137
+2026-11-20 15:05:21,006 oct31/F_repo_interactions/issue_comment config=1 tune_logloss=0.079627 best_iteration=95
+2026-11-20 15:05:21,703 oct31/F_repo_interactions/pr_review config=0 tune_logloss=0.081973 best_iteration=93
+2026-11-20 15:05:22,561 oct31/F_repo_interactions/pr_review config=1 tune_logloss=0.081414 best_iteration=98
+2026-11-20 15:05:23,197 oct31/F_repo_interactions/pr_review_comment config=0 tune_logloss=0.037861 best_iteration=76
+2026-11-20 15:05:23,999 oct31/F_repo_interactions/pr_review_comment config=1 tune_logloss=0.038529 best_iteration=83
+2026-11-20 15:05:24,579 oct31/A_copy five-class Score=0.3448
+2026-11-20 15:05:25,169 oct31/B_user five-class Score=0.4057
+2026-11-20 15:05:25,835 oct31/C_user_temporal five-class Score=0.4127
+2026-11-20 15:05:26,402 oct31/D_original_relational five-class Score=0.4048
+2026-11-20 15:05:26,971 oct31/R_repo_volume five-class Score=0.4076
+2026-11-20 15:05:27,629 oct31/I_interactions five-class Score=0.4021
+2026-11-20 15:05:28,409 oct31/F_repo_interactions five-class Score=0.4198
+2026-11-20 15:05:28,507 Five-class method selected from four independent holdouts: B_user
+2026-11-20 15:05:28,603 push_sep19/B_user/push config=0 tune_logloss=0.434003 best_iteration=60
+2026-11-20 15:05:28,784 push_sep19/B_user/push config=1 tune_logloss=0.433139 best_iteration=178
+2026-11-20 15:05:29,853 push_sep19/C_user_temporal/push config=0 tune_logloss=0.430887 best_iteration=75
+2026-11-20 15:05:30,043 push_sep19/C_user_temporal/push config=1 tune_logloss=0.432298 best_iteration=107
+2026-11-20 15:05:31,102 push_sep19/F_repo_interactions/push config=0 tune_logloss=0.431896 best_iteration=96
+2026-11-20 15:05:31,278 push_sep19/F_repo_interactions/push config=1 tune_logloss=0.432446 best_iteration=100
+2026-11-20 15:05:32,233 push_sep26/B_user/push config=0 tune_logloss=0.416871 best_iteration=45
+2026-11-20 15:05:32,355 push_sep26/B_user/push config=1 tune_logloss=0.417213 best_iteration=44
+2026-11-20 15:05:33,288 push_sep26/C_user_temporal/push config=0 tune_logloss=0.413544 best_iteration=46
+2026-11-20 15:05:33,514 push_sep26/C_user_temporal/push config=1 tune_logloss=0.413203 best_iteration=54
+2026-11-20 15:05:34,490 push_sep26/F_repo_interactions/push config=0 tune_logloss=0.415887 best_iteration=56
+2026-11-20 15:05:34,712 push_sep26/F_repo_interactions/push config=1 tune_logloss=0.414681 best_iteration=49
+2026-11-20 15:05:35,547 Push method selected from two safe holdouts: B_user
+2026-11-20 15:05:36,633 final_tune/B_user/open_pr config=0 tune_logloss=0.117055 best_iteration=162
+2026-11-20 15:05:37,275 final_tune/B_user/open_pr config=1 tune_logloss=0.117199 best_iteration=106
+2026-11-20 15:05:38,547 final_tune/B_user/open_issue config=0 tune_logloss=0.062966 best_iteration=137
+2026-11-20 15:05:39,110 final_tune/B_user/open_issue config=1 tune_logloss=0.063165 best_iteration=93
+2026-11-20 15:05:40,186 final_tune/B_user/issue_comment config=0 tune_logloss=0.078007 best_iteration=113
+2026-11-20 15:05:40,784 final_tune/B_user/issue_comment config=1 tune_logloss=0.077973 best_iteration=97
+2026-11-20 15:05:41,732 final_tune/B_user/pr_review config=0 tune_logloss=0.079988 best_iteration=97
+2026-11-20 15:05:42,313 final_tune/B_user/pr_review config=1 tune_logloss=0.079693 best_iteration=93
+2026-11-20 15:05:43,419 final_tune/B_user/pr_review_comment config=0 tune_logloss=0.031500 best_iteration=143
+2026-11-20 15:05:44,115 final_tune/B_user/pr_review_comment config=1 tune_logloss=0.031540 best_iteration=122
+2026-11-20 15:05:44,863 final_tune/B_user/push config=0 tune_logloss=0.411984 best_iteration=55
+2026-11-20 15:05:45,076 final_tune/B_user/push config=1 tune_logloss=0.412174 best_iteration=59
+2026-11-20 15:05:46,209 Saved final_refresh/predictions/provisional_prediction.csv, cold=148, format=Format check: no errors (4465 users)
